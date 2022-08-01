@@ -1,0 +1,530 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: whitesmoke;
+
+}
+/* barra navegacion*/
+
+#barranavegacion {
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+    margin: 0 auto;
+    background-color: whitesmoke;
+
+}
+.logo{
+width: 20%;
+justify-content: flex-start;
+
+}
+#menu  {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+
+#barranavegacion .categorias {
+    font-family: 'lato';
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    gap: 20px;
+
+  }
+
+#barranavegacion .categorias :hover {
+font-weight: 600;  
+color: #1E88E5;
+
+}
+
+
+
+
+
+/* imagen principal*/
+
+#imagenprincipal{
+ 
+    width: 90%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#imagenprincipal .imagenfondo{
+    
+    
+    margin: 40px 0   ;
+
+    background-image: url(/assets/img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px 0;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    width: 100%;
+    height: 380px;
+
+    flex-basis: 100%;
+    max-width: 1200px;
+    min-height: 300px;
+
+
+}
+#imagenprincipal .texto {
+    font-weight: 700;
+    font-style: oblique;
+    color: white;
+    text-shadow: 2px 2px 2px #555658;
+    padding: 25px;
+
+}
+
+/* seccion presentacion */
+
+
+
+#presentacion{
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+
+#presentacion .presentacion1{
+    
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: 40px 0;
+}
+
+
+
+#presentacion .logo {
+    background-image: url(/assets/img/logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 330px;
+    height: 80px;
+
+    flex-basis: 500px;
+    max-width: 350px;
+    min-height: 80px;
+
+    flex-grow: 1;
+
+
+    margin: 30px 20px;
+    padding: 20px;
+
+}
+
+#presentacion .textopresentacion{
+    flex-basis: 500px;
+    max-width: 700px;
+    flex-grow: 1;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+
+/*servicios */
+
+#servicios {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#servicios .seccion {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#servicios ::selection {
+ background-color: blue;
+ color: white;
+}
+
+
+
+#servicios .servicio1{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: 40px 0 30px 0;
+
+    background-color:white;
+    border-radius: 10px;
+
+}
+
+#servicios .foto1 {
+    background-image: url(/assets/img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 400px;
+    height: 300px;
+
+    flex-basis: 500px;
+    max-width: 600px;
+    min-height: 300px;
+    border-radius: 10px;
+
+}
+
+#servicios .texto1{
+    display: grid;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 500px;
+    max-width: 600px;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+#servicios  h5{
+    margin-top: 15px;
+}
+
+#servicios .servicio2{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: 30px 0;
+
+    background-color:white;
+    border-radius: 10px;
+
+}
+
+#servicios .foto2 {
+    background-image: url(/assets/img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 400px;
+    height: 300px;
+
+    flex-basis: 500px;
+    max-width: 600px;
+    min-height: 300px;
+    border-radius: 10px;
+
+}
+
+#servicios .texto2{
+    display: grid;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 500px;
+    max-width: 600px;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+#servicios .servicio3{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: 30px 0;
+
+    background-color:white;
+    border-radius: 10px;
+}
+
+#servicios .foto3{
+    background-image: url(/assets/img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 400px;
+    height: 300px;
+
+    flex-basis: 500px;
+    max-width: 600px;
+    min-height: 300px;
+    border-radius: 10px;
+
+}
+
+#servicios .texto3{
+    display: grid;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 500px;
+    max-width: 600px;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+/* seccion nosotros */
+
+
+
+#nosotros{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#nosotros .seccion {
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+
+#nosotros .historia1{
+    background-color: white;
+
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    margin: 40px 0;
+}
+
+#nosotros .textonosotros{
+    
+    flex-basis: 500px;
+    max-width: 700px;
+    flex-grow: 1;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+#nosotros .icono {
+    background-image: url(/assets/img/icono.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 220px;
+    height: 220px;
+
+    flex-basis: 400px;
+    max-width: 250px;
+    min-height: 250px;
+    flex-grow: 1;
+
+
+    margin: 30px 20px;
+    padding: 20px;
+
+
+}
+
+
+
+
+
+
+
+
+
+/*secion perfiles*/
+
+#perfiles {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+#perfiles .seccion {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+
+#perfiles .perfil123{
+    background-color: #CDDBFF;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+    border-radius: 10px;
+    max-width: 1200px;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+    
+
+#perfiles .perfil123 .perfil1{
+    background-image: url(/assets/img/perfil1.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+
+    flex-basis: 280px;
+    max-width: 450px;
+    flex-grow: 1;
+
+}
+
+#perfiles .perfil123 .perfil2{
+    background-image: url(/assets/img/perfil2.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+
+    flex-basis: 280px;
+    max-width: 450px;
+    flex-grow: 1;
+}
+#perfiles  .perfil123   .perfil3{
+    background-image: url(/assets/img/perfil3.jpeg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+
+    flex-basis: 280px;
+    max-width: 450px;
+    flex-grow: 1;
+}
+
+#perfiles .detalle{
+    background-color: #e3edf2;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+    flex-basis: 280px;
+    max-width: 300px;
+    flex-grow: 1;
+}
+
+
+#perfiles .detalle h5{
+    padding: 5px;
+
+    font-style: bold;
+    text-align: center;
+}
+
+#perfiles .detalle p{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: justify;
+    font-style: bold;
+    font-style: italic
+}
+
+/* noticia */
+
+#noticias {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#noticias .seccion {
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+#noticias .noticia1{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: 30px 0;
+
+    background-color:white;
+    border-radius: 10px;
+
+}
+
+
+
+#noticias .fotonoticia{
+    background-image: url(/assets/img/noticia1.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 400px;
+    height: 300px;
+
+    flex-basis: 500px;
+    max-width: 600px;
+    min-height: 300px;
+    border-radius: 10px;
+
+}
+
+#noticias .textonoticia1{
+    display: grid;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 500px;
+    max-width: 600px;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+
+#noticias  h5{
+    margin-top: 15px;
+}
