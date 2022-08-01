@@ -639,7 +639,7 @@ color: #1E88E5;
 #contacto{
     width: 90%;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     padding: 30px  ;
     align-items: center;
