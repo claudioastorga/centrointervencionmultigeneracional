@@ -118,7 +118,7 @@ color: #1E88E5;
 
 
 #presentacion .logo {
-    background-image: url(/assets/img/logo.svg);
+    background-image: url(../img/logo.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -229,7 +229,7 @@ color: #1E88E5;
 }
 
 #servicios .foto2 {
-    background-image: url(/assets/img/header.jpg);
+    background-image: url(../img/header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -270,7 +270,7 @@ color: #1E88E5;
 }
 
 #servicios .foto3{
-    background-image: url(/assets/img/header.jpg);
+    background-image: url(../img/header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -397,7 +397,7 @@ color: #1E88E5;
     
 
 #perfiles .perfil123 .perfil1{
-    background-image: url(/assets/img/perfil1.jpg);
+    background-image: url(../img/perfil1.jpg);
     background-size: cover;
     width: 300px;
     height: 300px;
@@ -413,7 +413,7 @@ color: #1E88E5;
 }
 
 #perfiles .perfil123 .perfil2{
-    background-image: url(/assets/img/perfil2.jpg);
+    background-image: url(../img/perfil2.jpg);
     background-size: cover;
     width: 300px;
     height: 300px;
@@ -427,7 +427,7 @@ color: #1E88E5;
     flex-grow: 1;
 }
 #perfiles  .perfil123   .perfil3{
-    background-image: url(/assets/img/perfil3.jpeg);
+    background-image: url(../img/perfil3.jpeg);
     background-size: cover;
     width: 300px;
     height: 300px;
@@ -499,7 +499,7 @@ color: #1E88E5;
 
 
 #noticias .fotonoticia{
-    background-image: url(/assets/img/noticia1.JPG);
+    background-image: url(../img/noticia1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -528,3 +528,117 @@ color: #1E88E5;
 #noticias  h5{
     margin-top: 15px;
 }
+
+
+/* publicaciones */
+
+
+#publicaciones{
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;}
+
+#publicaciones .seccion {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#publicaciones .publicaciones123{
+    background-color: whitesmoke;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+    max-width: 1200px;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+    }
+    
+
+#publicaciones .publicaciones123 .publicacion1{
+    background-image: url(../img/libro.jpg);
+    background-size: cover;
+
+    width: 320px;
+    height: 350px;
+    margin: auto;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 10px;
+
+    flex-basis: 280px;
+    max-width: 450px;
+    flex-grow: 1;
+
+}
+
+#publicaciones .publicaciones123 .publicacion2{
+    background-image: url(../img/libro.jpg);
+    background-size: cover;
+    width: 320px;
+    height: 350px;
+    margin: auto;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 10px;
+
+
+    flex-basis: 300px;
+    max-width: 450px;
+    flex-grow: 1;
+}
+#publicaciones  .publicaciones123 .publicacion3{
+    background-image: url(../img/libro.jpg);
+    background-size: cover;
+    width: 320px;
+    height: 350px;
+    margin: auto;
+    display: block;
+    margin-bottom: 5px;
+    border-radius: 10px;
+
+    flex-basis: 300px;
+    max-width: 450px;
+    flex-grow: 1;
+
+}
+
+#publicaciones .detalle{
+    background-color: #CDDBFF;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+
+#publicaciones .detalle footer{
+    display: flex;
+    justify-content: flex-end;    
+
+}
+
+/* fin publicaciones*/
+
+
+/* contacto */
+
+#contacto{
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;}
+
+#contacto .seccion {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
