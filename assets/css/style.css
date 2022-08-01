@@ -663,7 +663,7 @@ color: #1E88E5;
     padding: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     flex-wrap: wrap;
     margin: 0 30px ;
