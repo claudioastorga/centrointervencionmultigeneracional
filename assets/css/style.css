@@ -5,6 +5,11 @@ body{
 }
 /* barra navegacion*/
 
+#barranavegacion{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
 #barranavegacion {
     width: 100%;
     margin: 0 auto;
@@ -35,13 +40,10 @@ justify-content: flex-start;
   }
 
 #barranavegacion .categorias :hover {
-font-weight: 600;  
+font-weight: 700;  
 color: #1E88E5;
 
 }
-
-
-
 
 
 /* imagen principal*/
@@ -81,6 +83,9 @@ color: #1E88E5;
 
 
 }
+
+
+
 #imagenprincipal .texto {
     font-weight: 700;
     font-style: oblique;
@@ -208,8 +213,20 @@ color: #1E88E5;
     margin: 0 20px;
 }
 
+#servicios  footer{
+    display: flex;
+    justify-content: flex-end;    
+}
+#servicios button{
+    background-color: #f2b90c;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
 #servicios  h5{
     margin-top: 15px;
+    background-color: #bdd9f2;
 }
 
 #servicios .servicio2{
@@ -294,6 +311,51 @@ color: #1E88E5;
     flex-grow: 1;
     margin: 0 20px;
 }
+
+#servicios .servicio4{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin: 30px 0;
+
+    background-color:white;
+    border-radius: 10px;
+}
+#servicios .foto4{
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 400px;
+    height: 300px;
+
+    flex-basis: 500px;
+    max-width: 600px;
+    min-height: 300px;
+    border-radius: 10px;
+
+}
+
+#servicios .texto4{
+    display: grid;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 500px;
+    max-width: 600px;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+
+
+
+
 
 /* seccion nosotros */
 
@@ -534,20 +596,20 @@ color: #1E88E5;
     justify-content: flex-end;
 }
 
-/* publicaciones */
+/* biblioteca */
 
 
-#publicaciones{
+#biblioteca{
     width: 90%;
     margin: 0 auto;
     justify-content: space-between;}
 
-#publicaciones .seccion {
+#biblioteca .seccion {
     margin-top: 30px;
     margin-left: 30px;
 }
 
-#publicaciones .publicaciones123{
+#biblioteca .publicaciones123{
     background-color: whitesmoke;
     width: 100%;
     margin: 0 auto;
@@ -564,7 +626,7 @@ color: #1E88E5;
     }
     
 
-#publicaciones .publicaciones123 .publicacion1{
+#biblioteca .publicaciones123 .publicacion1{
     background-image: url(../img/libro.jpg);
     background-size: cover;
 
@@ -581,7 +643,7 @@ color: #1E88E5;
 
 }
 
-#publicaciones .publicaciones123 .publicacion2{
+#biblioteca .publicaciones123 .publicacion2{
     background-image: url(../img/libro.jpg);
     background-size: cover;
     width: 320px;
@@ -596,7 +658,7 @@ color: #1E88E5;
     max-width: 450px;
     flex-grow: 1;
 }
-#publicaciones  .publicaciones123 .publicacion3{
+#biblioteca  .publicaciones123 .publicacion3{
     background-image: url(../img/libro.jpg);
     background-size: cover;
     width: 320px;
@@ -612,7 +674,7 @@ color: #1E88E5;
 
 }
 
-#publicaciones .detalle{
+#biblioteca .detalle{
     background-color: #CDDBFF;
     padding: 10px;
     border-radius: 10px;
@@ -622,7 +684,7 @@ color: #1E88E5;
 
 
 
-#publicaciones .boton{
+#biblioteca .boton{
     display: flex;
     justify-content: flex-end;
   
@@ -631,7 +693,7 @@ color: #1E88E5;
 
 
 
-/* fin publicaciones*/
+/* fin biblioteca*/
 
 
 /* inicio contacto */
