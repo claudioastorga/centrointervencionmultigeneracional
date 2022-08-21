@@ -90,6 +90,7 @@ color: #1E88E5;
     color: white;
     text-shadow: 2px 2px 2px #555658;
     padding: 25px;
+    align-content: center;
 
 }
 
@@ -149,7 +150,6 @@ color: #1E88E5;
     padding: 20px;
 }
 
-
 /*servicios */
 
 #servicios {
@@ -167,8 +167,6 @@ color: #1E88E5;
  color: white;
 }
 
-
-
 #servicios .servicio1{
     width: 100%;
     margin: 0 auto;
@@ -180,7 +178,7 @@ color: #1E88E5;
 
     margin: 40px 0 30px 0;
 
-    background-color: #f2eeac;
+    background-color: #f2dabd;
     border-radius: 10px;
 
 }
@@ -228,6 +226,11 @@ color: #1E88E5;
     margin-bottom: 15px;
 }
 
+#servicios h5{
+    margin-left: 30px;
+
+}
+
 #servicios  h6 {
     margin-top: 30px;
 }
@@ -250,7 +253,7 @@ color: #1E88E5;
 
     margin: 30px 0;
 
-    background-color: #CDDBFF;
+    background-color: #e3edf2;
     border-radius: 10px;
 
 }
@@ -292,7 +295,7 @@ color: #1E88E5;
 
     margin: 30px 0;
 
-    background-color: #CDDBFF;
+    background-color: #e3edf2;
     border-radius: 10px;
 }
 
@@ -367,12 +370,7 @@ color: #1E88E5;
     justify-content: flex-end;
 }
 
-
-
-
 /* seccion nosotros */
-
-
 
 #nosotros{
     width: 90%;
@@ -382,9 +380,7 @@ color: #1E88E5;
 #nosotros .seccion {
     margin-top: 20px;
     margin-left: 30px;
-
 }
-
 
 #nosotros .historia1{
     background-color: white;
@@ -429,13 +425,6 @@ color: #1E88E5;
 
 
 }
-
-
-
-
-
-
-
 
 
 /*secion perfiles*/
@@ -528,8 +517,7 @@ color: #1E88E5;
 
 #perfiles .detalle h5{
     padding: 5px;
-
-    font-style: bold;
+font-weight: 600;
     text-align: center;
 }
 
@@ -540,6 +528,59 @@ color: #1E88E5;
     text-align: justify;
     font-style: bold;
     font-style: italic
+}
+
+/* seccion nosotros */
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px *3));
+    }
+
+}
+
+.slider{
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+.slider .slide-track{
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 7 );
+    margin-top: 30px;
+
+}
+.slider .slide{
+    height: 100px;
+    width: 250px;
+}
+
+#vinculos{
+width: 90%;
+margin: 0 auto;
+}
+
+#vinculos .slider{
+width: 70%;
+margin: 0 auto;
+}
+
+#vinculos .seccion {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+#vinculos .textovinculos{
+    margin: 0 30px;
+    padding: 30px;
+    text-align: justify;
+    margin-top: 30px;
 }
 
 /* noticia */
