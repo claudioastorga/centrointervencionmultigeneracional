@@ -44,6 +44,91 @@ color: #1E88E5;
 }
 
 
+
+/* carrusel*/
+#carouselExampleDark{
+ 
+    width: 90%;
+    margin: 0 auto;
+   
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#carouselExampleDark .fotocarrusel1{
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+    border-radius: 30px 0;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    width: 100%;
+    height: 380px;
+
+    flex-basis: 100%;
+    max-width: 1200px;
+    min-height: 350px;
+}
+
+#carouselExampleDark .fotocarrusel2{
+    background-image: url(../img/carrusel2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 30px 0;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    width: 100%;
+    height: 380px;
+
+    flex-basis: 100%;
+    max-width: 1200px;
+    min-height: 350px;
+}
+#carouselExampleDark .fotocarrusel3{
+    background-image: url(../img/carrusel3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    border-radius: 30px 0;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    width: 100%;
+    height: 380px;
+
+    flex-basis: 100%;
+    max-width: 1200px;
+    min-height: 350px;
+}
+
+
+#carouselExampleDark .textocarrusel{
+    font-style: oblique;
+    color: white;
+    text-shadow: 2px 2px 2px #555658;
+    padding: 25px;
+    align-content: center;
+
+}
+
+
+
 /* imagen principal*/
 
 #imagenprincipal{
@@ -209,6 +294,13 @@ color: #1E88E5;
     margin: 0 20px;
 }
 
+
+#servicios .subtitulo{
+font-weight: 600;
+color: #555658;
+margin-bottom: 15px;
+}
+
 #servicios  footer{
     display: flex;
     justify-content: flex-end;    
@@ -372,7 +464,7 @@ color: #1E88E5;
 
 #servicios  p span  {
     background-color: #BDD9F2;
-    color: white;
+    color: #555658;
     padding: 5px 5px;
     margin-top: 10px;
 }
@@ -652,14 +744,47 @@ border-radius: 10px;
 }
 
 
+#noticias .fotonoticia2{
+    background-image: url(../img/andolfi.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 400px;
+    height: 300px;
+
+    flex-basis: 500px;
+    max-width: 600px;
+    min-height: 300px;
+    border-radius: 10px;
+
+}
+
+
+
+
+
 #noticias  h5{
     margin-top: 15px;
 }
 
-#noticias .boton{
+
+
+
+#noticias .btnnoticias{
     display: flex;
     justify-content: flex-end;
 }
+
+#noticias  p span  {
+    background-color: #BDD9F2;
+    color: #555658;
+    padding: 5px 5px;
+    margin-top: 10px;
+}
+
+
+
 
 /* biblioteca */
 
@@ -740,7 +865,7 @@ border-radius: 10px;
 }
 
 #biblioteca .detalle{
-    background-color: #CDDBFF;
+    background-color: #BDD9F2;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 30px;
