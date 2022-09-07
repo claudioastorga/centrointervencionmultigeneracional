@@ -310,18 +310,45 @@ margin-bottom: 15px;
     display: flex;
     justify-content: flex-end;    
 }
-#servicios button{
-    background-color: #F2B90C;
+#servicios .boton1{
+    background-color: #fec768;
     color: white;
-    border-radius: 0px;
+    font-weight: 600;
+    border-radius: 15px;
     margin-bottom: 15px;
+    border: none;
+    padding: 5px 15px;
+    transition: .3s ease all;
+
 }
+
+ #servicios .color  :hover{
+     background-color: yellow;
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+
 #servicios .boton2{
     background-color: #1E88E5;
     color: white;
-    border-radius: 0px;
+    border-radius: 15px;
     margin-bottom: 15px;
+    border: none;
+    padding: 5px 15px;
+   
 }
+
+
+#servicios .color2 :hover{
+    background-color: #BDD9F2;
+    color: #1E88E5;
+}
+
+
 
 #servicios h5{
     margin-left: 30px;
@@ -470,9 +497,24 @@ margin-bottom: 15px;
 #servicios  p span  {
     background-color: #BDD9F2;
     color: #555658;
-    padding: 5px 5px;
+    font-weight: 500;
+
     margin-top: 10px;
+
+    border-radius: 15px;
+    margin-bottom: 15px;
+    border: none;
+    padding: 5px 15px;
 }
+
+#servicios .btnservicios :hover{
+    background-color: #1E88E5;
+    color:white;
+    font-weight: 500;
+}
+
+
+
 
 
 /* seccion nosotros */
@@ -789,8 +831,12 @@ border-radius: 10px;
 #noticias  p span  {
     background-color: #BDD9F2;
     color: #555658;
-    padding: 5px 5px;
     margin-top: 10px;
+
+    border-radius: 15px;
+    margin-bottom: 15px;
+    border: none;
+    padding: 5px 15px;
 }
 
 
@@ -899,7 +945,7 @@ border-radius: 10px;
 /* inicio contacto */
 
 #contacto{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 30px  ;
     align-items: center;
