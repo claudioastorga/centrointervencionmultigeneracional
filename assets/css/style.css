@@ -59,10 +59,10 @@ color: #1E88E5;
 
 
 #carouselExampleDark .fotocarrusel1{
-    background-image: url(../img/carrusel1.jpg);
+    background-image: url(../img/CIMcarrusel1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
 
     border-radius: 30px 0;
 
@@ -168,17 +168,17 @@ color: #1E88E5;
 
 
 #presentacion .logo {
-    background-image: url(../img/logo2.svg);
+    background-image: url(../img/CIMlogo.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     
-    width: 320px;
-    height: 130px;
+    width: 380px;
+    height: 85px;
 
     flex-basis: 490px;
-    max-width: 350px;
-    min-height: 80px;
+    max-width: 400px;
+    min-height: 50px;
 
     flex-grow: 1;
 
@@ -231,7 +231,7 @@ color: #1E88E5;
 }
 
 #servicios .foto1 {
-    background-image: url(../img/prueba1.jpg);
+    background-image: url(../img/CIMservicio1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -341,7 +341,7 @@ margin-bottom: 15px;
 }
 
 #servicios .foto2 {
-    background-image: url(../img/prueba2.jpg);
+    background-image: url(../img/CIMservicio2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
