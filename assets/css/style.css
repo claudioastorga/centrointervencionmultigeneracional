@@ -80,7 +80,7 @@ color: #1E88E5;
 }
 
 #carouselExampleDark .fotocarrusel2{
-    background-image: url(../img/pareja-tiro-medio-terapia_23-2149220277.jpg.jp2);
+    background-image: url(../img/CIMcarrusel2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -100,10 +100,10 @@ color: #1E88E5;
 
 }
 #carouselExampleDark .fotocarrusel3{
-    background-image: url(../img/prueba2.jpg);
+    background-image: url(../img/CIMcarrusel3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 
     border-radius: 30px 0;
 
@@ -173,26 +173,27 @@ color: #1E88E5;
     background-repeat: no-repeat;
     background-position: center;
     
-    width: 100%;
-    height: 85px;
+    width: 250px;
+    height: 70px;
 
-    flex-basis: 100%;
-    max-width: 400px;
-    min-height: 50px;
+    flex-basis: 500px;
+    max-width: 320px;
+    min-width: 220px;
+    min-height: 70px;
 
     flex-grow: 1;
 
 
-    margin: 30px 20px;
+    margin: 30px 10px;
     padding: 20px;
 
 }
 
 #presentacion .textopresentacion{
     flex-basis: 500px;
-    max-width: 700px;
+    max-width: 600px;
     flex-grow: 1;
-    margin: 0 20px;
+    margin: 0 10px;
     padding: 20px;
 }
 
@@ -341,7 +342,7 @@ margin-bottom: 15px;
 }
 
 #servicios .foto2 {
-    background-image: url(../img/CIMservicio2.jpg);
+    background-image: url(../img/CIMcarrusel3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -382,7 +383,7 @@ margin-bottom: 15px;
 }
 
 #servicios .foto3{
-    background-image: url(../img/prueba1.jpg);
+    background-image: url(../img/CIMservicio3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -422,7 +423,7 @@ margin-bottom: 15px;
     border-radius: 10px;
 }
 #servicios .foto4{
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/CIMservicio3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
