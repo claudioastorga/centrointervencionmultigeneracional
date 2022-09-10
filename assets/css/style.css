@@ -79,6 +79,14 @@ color: #1E88E5;
 
 }
 
+#carouselExampleDark .fotocarrusel1 .fotocarrusel2 {
+    
+    border-image: none;
+border-style: none;
+}
+
+
+
 #carouselExampleDark .fotocarrusel2{
     background-image: url(../img/CIMcarrusel2.jpg);
     background-size: cover;
@@ -173,11 +181,11 @@ color: #1E88E5;
     background-repeat: no-repeat;
     background-position: center;
     
-    width: 250px;
+    width: 255px;
     height: 70px;
 
     flex-basis: 500px;
-    max-width: 320px;
+    max-width: 330px;
     min-width: 220px;
     min-height: 70px;
 
