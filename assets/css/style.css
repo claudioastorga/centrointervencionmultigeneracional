@@ -54,7 +54,7 @@ color: #1E88E5;
     margin-top: 50px;
     align-items: center;
     justify-content: center;
-
+    background-color: whitesmoke;
 }
 
 
@@ -79,11 +79,6 @@ color: #1E88E5;
 
 }
 
-#carouselExampleDark .fotocarrusel1 .fotocarrusel2 {
-    
-    border-image: none;
-border-style: none;
-}
 
 
 
@@ -255,6 +250,9 @@ border-style: none;
 
 }
 
+
+
+
 #servicios .texto1{
     display: grid;
     flex-direction: row;
@@ -286,13 +284,11 @@ margin-bottom: 15px;
     padding: 5px 15px;
     transition: .3s ease all;
     font-weight: bold;
-
 }
 
  #servicios .color  :hover{
      background-color: #f2b90c;
     color: white;
-    cursor: pointer;
 }
 
 
@@ -493,6 +489,7 @@ margin-bottom: 15px;
     margin-top: 20px;
     margin-left: 30px;
     font-weight: 600;
+    
 }
 
 #nosotros .historia1{
@@ -537,7 +534,9 @@ margin-bottom: 15px;
     padding: 20px;
 
 
+
 }
+
 
 
 /*secion perfiles*/
@@ -577,43 +576,48 @@ margin-bottom: 15px;
 #perfiles .perfil123 .perfil1{
     background-image: url(../img/perfil1.jpg);
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
     border-radius: 50%;
     margin: auto;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 
-    flex-basis: 280px;
+    flex-basis: 270px;
     max-width: 450px;
     flex-grow: 1;
 
 }
 
+
+
+
 #perfiles .perfil123 .perfil2{
     background-image: url(../img/perfil2.jpg);
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
     border-radius: 50%;
     margin: auto;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 
-    flex-basis: 280px;
+    flex-basis: 270px;
     max-width: 450px;
     flex-grow: 1;
 }
 #perfiles  .perfil123   .perfil3{
     background-image: url(../img/perfil3.jpeg);
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
     border-radius: 50%;
-    margin-bottom: 15px;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
 
-    flex-basis: 280px;
-    max-width: 450px;
+    flex-basis: 270px;
+    max-width: 300px;
     flex-grow: 1;
 }
 
@@ -624,7 +628,7 @@ margin-bottom: 15px;
     margin-bottom: 30px;
 
     flex-basis: 280px;
-    max-width: 300px;
+    max-width: 330px;
     flex-grow: 1;
 }
 
@@ -728,6 +732,7 @@ border-radius: 10px;
     background-color:white;
     border-radius: 10px;
 
+
 }
 
 
@@ -738,11 +743,11 @@ border-radius: 10px;
     background-repeat: no-repeat;
     background-position: center;
     
-    width: 400px;
-    height: 300px;
+    width: 380px;
+    height: 280px;
 
-    flex-basis: 500px;
-    max-width: 600px;
+    flex-basis: 450px;
+    max-width: 550px;
     min-height: 300px;
     border-radius: 10px;
 
@@ -755,7 +760,7 @@ border-radius: 10px;
     flex-basis: 500px;
     max-width: 600px;
     flex-grow: 1;
-    margin: 0 20px;
+    margin: 0 30px;
 }
 
 
