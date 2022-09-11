@@ -71,11 +71,11 @@ color: #1E88E5;
     justify-content: center;
 
     width: 100%;
-    height: 400px;
+    height: 380px;
 
     flex-basis: 100%;
     max-width: 1200px;
-    min-height: 350px;
+    min-height: 330px;
 
 }
 
@@ -95,7 +95,7 @@ color: #1E88E5;
     justify-content: top;
 
     width: 100%;
-    height: 400px;
+    height: 380px;
 
     flex-basis: 100%;
     max-width: 1200px;
@@ -115,7 +115,7 @@ color: #1E88E5;
     justify-content: center;
 
     width: 100%;
-    height: 400px;
+    height: 380px;
 
     flex-basis: 100%;
     max-width: 1200px;
@@ -151,6 +151,8 @@ color: #1E88E5;
     width: 90%;
     margin: 0 auto;
     background-color: white;
+    border-radius: 10px;
+
 }
 
 
@@ -193,8 +195,8 @@ color: #1E88E5;
 }
 
 #presentacion .textopresentacion{
-    flex-basis: 500px;
-    max-width: 600px;
+    flex-basis: 450px;
+    max-width: 550px;
     flex-grow: 1;
     margin: 0 10px;
     padding: 20px;
@@ -240,12 +242,12 @@ color: #1E88E5;
     background-repeat: no-repeat;
     background-position: center;
     
-    width: 400px;
-    height: 300px;
+    width: 380px;
+    height: 280px;
 
-    flex-basis: 500px;
-    max-width: 600px;
-    min-height: 300px;
+    flex-basis: 450px;
+    max-width: 550px;
+    min-height: 280px;
     border-radius: 10px;
 
 }
@@ -351,12 +353,12 @@ margin-bottom: 15px;
     background-repeat: no-repeat;
     background-position: center;
     
-    width: 400px;
-    height: 300px;
+    width: 380px;
+    height: 280px;
 
-    flex-basis: 500px;
-    max-width: 600px;
-    min-height: 300px;
+    flex-basis: 450px;
+    max-width: 550px;
+    min-height: 280px;
     border-radius: 10px;
 
 }
@@ -392,12 +394,12 @@ margin-bottom: 15px;
     background-repeat: no-repeat;
     background-position: center;
     
-    width: 400px;
-    height: 300px;
+    width: 380px;
+    height: 280px;
 
-    flex-basis: 500px;
-    max-width: 600px;
-    min-height: 300px;
+    flex-basis: 450px;
+    max-width: 550px;
+    min-height: 280px;
     border-radius: 10px;
 
 }
@@ -432,12 +434,12 @@ margin-bottom: 15px;
     background-repeat: no-repeat;
     background-position: center;
     
-    width: 400px;
-    height: 300px;
+    width: 380px;
+    height: 280px;
 
-    flex-basis: 500px;
-    max-width: 600px;
-    min-height: 300px;
+    flex-basis: 450px;
+    max-width: 550px;
+    min-height: 280px;
     border-radius: 10px;
 
 }
@@ -628,14 +630,14 @@ margin-bottom: 15px;
     margin-bottom: 30px;
 
     flex-basis: 280px;
-    max-width: 330px;
+    max-width: 320px;
     flex-grow: 1;
 }
 
 
 #perfiles .detalle h5{
     padding: 5px;
-font-weight: 600;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -684,7 +686,7 @@ margin: 0 auto;
 }
 
 #vinculos .slider{
-width: 70%;
+width: 50%;
 margin: 0 auto;
 background-color: white;
 border-radius: 10px;
@@ -698,6 +700,7 @@ border-radius: 10px;
 }
 
 #vinculos .textovinculos{
+    
     margin: 0 30px;
     padding: 30px;
     text-align: justify;
@@ -775,11 +778,11 @@ border-radius: 10px;
     background-repeat: no-repeat;
     background-position: center;
     
-    width: 400px;
-    height: 300px;
+    width: 380px;
+    height: 280px;
 
-    flex-basis: 500px;
-    max-width: 600px;
+    flex-basis: 450px;
+    max-width: 550px;
     min-height: 300px;
     border-radius: 10px;
 
