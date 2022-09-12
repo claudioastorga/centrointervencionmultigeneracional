@@ -822,6 +822,40 @@ border-radius: 10px;
 
 
 
+
+
+#noticias .botonleermas{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+#noticias .botonleermas ::after{
+    background-color: aqua;
+   content: "";
+   display: block;
+   width: 0px;
+height: 24px;
+overflow: hidden;
+background-image: url(../img/icono.svg);
+transition: width 200ms, margin-left 200ms;
+
+}
+
+#noticias .botonleermas :is(:hover, :focus) ::after{
+
+    width: 24px;
+    margin-left: 8px;
+
+ }
+
+
+
+
 /* biblioteca */
 
 
@@ -936,39 +970,64 @@ border-radius: 10px;
     margin-bottom: 30px;
 }
 
-    
+/* inicio footer */
 
-#contacto .seccion {
-    margin-top: 30px;
-    margin-left: 30px;
+#piedepagina{
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-between;
+
+        background-color: #030a8c;
+        color: white;
+        padding: 70px 0 ;
+
+    }
+#pidepagina .container{
+    max-width: 1170px;
+    margin: auto;
 }
 
 
-#contacto .datoscontacto{
-    background-color: #d0dae0;
-    padding: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    #piedepagina .row{
 
-    flex-wrap: wrap;
-    
-    margin: 0 30px ;
-    gap: 30px;
+     display: flex;
+     flex-wrap: wrap;
+        
+    }
+       
+    #piedepagina ul{
+    list-style: none;
+    }
 
-    border-radius: 10px;
-    flex-grow: 1;
+    #piedepagina .footer-col{
+    width: 40%;
+    padding: 0 15px;
+           
+    }
 
+    #piedepagina .footer-col h4{
 
-  
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    position: relative;
+             
+         }
 
-}
+    #piedepagina .footer-col ul li a{    
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    display: block;
+                     
+    }
 
-
-
-
-
-
+    #piedepagina .footer-col ul li :hover{    
+    color: #88aabf;
+    padding-left: 10px;                         
+        }
+       
+   
 
 
 
