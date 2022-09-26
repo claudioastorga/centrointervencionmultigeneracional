@@ -152,7 +152,6 @@ color: #1E88E5;
     margin: 0 auto;
     background-color: white;
     border-radius: 10px;
-
 }
 
 
@@ -195,11 +194,14 @@ color: #1E88E5;
 }
 
 #presentacion .textopresentacion{
-    flex-basis: 450px;
-    max-width: 550px;
+    background-color: whitesmoke;
+
+    flex-basis: 400px;
+    max-width: 500px;
     flex-grow: 1;
-    margin: 0 10px;
+    margin: 30px 20px;
     padding: 20px;
+    text-align: justify;
 }
 
 /*servicios */
@@ -215,10 +217,15 @@ color: #1E88E5;
     font-weight: 600;
 }
 
+/*
 #servicios ::selection {
  background-color: black;
  color: white;
 }
+*/
+
+
+/* servicio 1 */
 
 #servicios .servicio1{
     width: 100%;
@@ -249,53 +256,57 @@ color: #1E88E5;
     max-width: 550px;
     min-height: 280px;
     border-radius: 10px;
-
 }
-
-
-
 
 #servicios .texto1{
     display: grid;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-basis: 500px;
     max-width: 600px;
     flex-grow: 1;
-    margin: 0 20px;
+    margin: 0 25px;
+    text-align: justify;
 }
 
-
 #servicios .subtitulo{
-font-weight: 600;
+font-weight: 700;
 color: #555658;
 margin-bottom: 15px;
 }
 
-#servicios  footer{
+#servicios .servicio1 footer  {
     display: flex;
     justify-content: flex-end;    
 }
+
 #servicios .boton1{
     background-color: #fec768;
     color: white;
     font-weight: 600;
     border-radius: 15px;
-    margin-bottom: 15px;
     border: none;
     padding: 5px 15px;
     transition: .3s ease all;
     font-weight: bold;
+    margin: 15px 20px;
+
 }
 
- #servicios .color  :hover{
+#servicios .color  :hover{
      background-color: #f2b90c;
     color: white;
 }
 
+#servicios .subtitulo2{
+    font-weight: bolder;
+    color: #555658;
+    margin-bottom: 15px;
+    font-size: 14px;
+    }
 
 
-
+/* servicio 2 */
 
 #servicios .boton2{
     background-color: #1E88E5;
@@ -305,33 +316,51 @@ margin-bottom: 15px;
     border: none;
     padding: 5px 15px;
     font-weight: bold;   
+    margin: 15px 20px;
+
 }
 
+#servicios .boton3{
+    background-color: #e3edf2;
+    border: 3px solid #1E88E5 ;
+    color: #1E88E5;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    font-weight: bold;   
+    margin: 15px 20px;
 
-#servicios .color2 :hover{
+}
+
+#servicios .servicio2 footer  { /* agregar servico 3 y 4 */
+    display: flex;
+    justify-content: space-around;    
+}
+
+#servicios .color2  :hover{
     background-color: #0a4da6;
     color: white;
 }
 
 
-
-#servicios h5{
-    margin-left: 30px;
-
+#servicios  h3 {
+margin-top: 20px;
+font-weight: 600;
 }
-
 #servicios  h6 {
-    margin-top: 30px;
-}
+    margin-top: 15px;
+    font-weight: 500;
+    }
+    
 
 
 #servicios  h6 span{
     background-color: white;
-    padding: 5px 7px;
-    margin-top: 15px;
+    padding: 5px 5px;
+    margin-top: 5px;
 }
 
-#servicios .servicio2{
+#servicios .servicio2 , .servicio3 , .servicio4{
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -363,30 +392,33 @@ margin-bottom: 15px;
 
 }
 
-#servicios .texto2{
+
+#servicios .texto2 , .texto3 , .texto4{
     display: grid;
     flex-direction: row;
     justify-content: space-between;
     flex-basis: 500px;
     max-width: 600px;
     flex-grow: 1;
-    margin: 0 20px;
+    margin: 0 25px;
+    text-align: justify;
 }
 
-#servicios .servicio3{
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
 
-    margin: 30px 0;
 
-    background-color: #e3edf2;
-    border-radius: 10px;
+#servicios .requisitos{
+
+    font-weight: 600;
+    list-style: none;
 }
+
+#piedepagina ul{
+    list-style: none;
+    }
+
+
+
+
 
 #servicios .foto3{
     background-image: url(../img/CIMservicio3.jpg);
@@ -404,30 +436,7 @@ margin-bottom: 15px;
 
 }
 
-#servicios .texto3{
-    display: grid;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-basis: 500px;
-    max-width: 600px;
-    flex-grow: 1;
-    margin: 0 20px;
-}
 
-#servicios .servicio4{
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-    margin: 30px 0;
-
-    background-color: #e3edf2;
-    border-radius: 10px;
-}
 #servicios .foto4{
     background-image: url(../img/CIMservicio3.jpg);
     background-size: cover;
@@ -444,15 +453,6 @@ margin-bottom: 15px;
 
 }
 
-#servicios .texto4{
-    display: grid;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-basis: 500px;
-    max-width: 600px;
-    flex-grow: 1;
-    margin: 0 20px;
-}
 
 #servicios .btnservicios{
     display: flex;
@@ -515,6 +515,8 @@ margin-bottom: 15px;
     flex-grow: 1;
     margin: 0 20px;
     padding: 20px;
+    text-align: justify;
+    font-weight: 700;
 }
 
 #nosotros .icono {
@@ -546,6 +548,7 @@ margin-bottom: 15px;
 #perfiles {
     width: 90%;
     margin: 0 auto;
+    
 }
 
 
