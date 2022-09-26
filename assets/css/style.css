@@ -284,9 +284,9 @@ margin-bottom: 15px;
     background-color: #fec768;
     color: white;
     font-weight: 600;
-    border-radius: 15px;
+    border-radius: 5px;
     border: none;
-    padding: 5px 15px;
+    padding: 5px 25px;
     transition: .3s ease all;
     font-weight: bold;
     margin: 15px 20px;
@@ -311,23 +311,23 @@ margin-bottom: 15px;
 #servicios .boton2{
     background-color: #1E88E5;
     color: white;
-    border-radius: 15px;
+    border-radius: 5px;
     margin-bottom: 15px;
     border: none;
-    padding: 5px 15px;
-    font-weight: bold;   
+    padding: 5px 25px;
+    font-weight: 600;   
     margin: 15px 20px;
 
 }
 
 #servicios .boton3{
     background-color: #e3edf2;
-    border: 3px solid #1E88E5 ;
+    border: 2px solid #1E88E5 ;
     color: #1E88E5;
-    border-radius: 15px;
+    border-radius: 7px;
     margin-bottom: 15px;
-    padding: 5px 15px;
-    font-weight: bold;   
+    padding: 5px 25px;
+    font-weight: 600;   
     margin: 15px 20px;
 
 }
@@ -376,6 +376,17 @@ font-weight: 600;
 
 }
 
+#servicios .texto2 , .texto3 , .texto4{
+    display: grid;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 500px;
+    max-width: 600px;
+    flex-grow: 1;
+    margin: 0 25px;
+    text-align: justify;
+}
+
 #servicios .foto2 {
     background-image: url(../img/CIMcarrusel3.jpg);
     background-size: cover;
@@ -391,34 +402,6 @@ font-weight: 600;
     border-radius: 10px;
 
 }
-
-
-#servicios .texto2 , .texto3 , .texto4{
-    display: grid;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-basis: 500px;
-    max-width: 600px;
-    flex-grow: 1;
-    margin: 0 25px;
-    text-align: justify;
-}
-
-
-
-#servicios .requisitos{
-
-    font-weight: 600;
-    list-style: none;
-}
-
-#piedepagina ul{
-    list-style: none;
-    }
-
-
-
-
 
 #servicios .foto3{
     background-image: url(../img/CIMservicio3.jpg);
@@ -452,6 +435,22 @@ font-weight: 600;
     border-radius: 10px;
 
 }
+
+
+
+
+#servicios .requisitos{
+    font-weight: 600;
+    list-style: none;
+}
+
+
+#servicios  .modal-title{
+    font-weight: 600;
+
+}
+
+
 
 
 #servicios .btnservicios{
