@@ -188,6 +188,7 @@ color: #1E88E5;
     text-align: justify;
     text-indent: 25px;
     border-radius: 10px;
+    font-weight: 600;
 
 }
 
@@ -201,17 +202,10 @@ color: #1E88E5;
 #servicios .seccion {
     margin-top: 20px;
     margin-left: 30px;
+    margin-bottom: 50px;
     font-weight: 600;
-    color: white;
-    text-transform: uppercase;
+}
 
-}
-#servicios  h2 span{
-    background-color: #1E88E5;
-    padding: 5px 12px;
-    font-size: 20px;
-    border-radius: 12px 0;
-}
 
 #fondo {
     width: 100%;
@@ -253,7 +247,7 @@ color: #1E88E5;
 }
 
 
-#servicios .texto1{
+#servicios .texto1  {
     display: grid;
     flex-direction: row;
     justify-content: flex-start;
@@ -262,13 +256,30 @@ color: #1E88E5;
     flex-grow: 1;
     margin: 0 25px;
     text-align: justify;
-    text-indent: 25px;
 }
 
-#servicios .subtitulo{
-font-weight: 700;
-color: #555658;
-margin-bottom: 15px;
+  
+  #servicios .servicio1  .subtitulo {
+    margin-top: 20px;
+    margin-left: 0px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    display: flex;
+    align-items:center;
+}
+
+#servicios .servicio1   span{
+    background-color: #f2b90c;
+    padding: 5px 12px;
+    font-size: 14px;
+    border-radius: 12px 0;
+}
+
+#servicios .servicio1 h6{
+    margin-top: 10px;
 }
 
 #servicios  .servicio1 footer  {
@@ -296,9 +307,9 @@ margin-bottom: 15px;
 
 
 
-/* servicios para profesionales   */
+/* servicio 2   */
 
-#servicios .servicioprofesionales {
+#servicios .servicio2 {
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -309,49 +320,56 @@ margin-bottom: 15px;
 
     margin: 30px 0;
 
-    background-color: whitesmoke;
+    background-color: #c5e0fb;
     border-radius: 10px;
 
 }
 
-#servicios .textogeneral {
-    background-color: whitesmoke;
-
+#servicios .texto2  {
     display: grid;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-basis: 500px;
     max-width: 600px;
     flex-grow: 1;
     margin: 0 25px;
     text-align: justify;
-
 }
 
-#servicios .textotitulo{
-    background-color: whitesmoke;
-    width: 380px;
-    flex-basis: 450px;
-    max-width: 550px;
-    height: 100%;
-    border-radius: 10px;
-    text-align: left;
-    padding-right: 25px;
-    padding-bottom: 20px;
-
+#servicios .servicio2  .subtitulo {
+    margin-top: 20px;
+    margin-left: 0px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items:center;
 }
-#servicios  .servicio5 footer  {
+
+#servicios .servicio2   span{
+    background-color: #1E88E5;
+    padding: 5px 12px;
+    font-size: 14px;
+    border-radius: 12px 0;
+}
+
+#servicios .servicio2 h6{
+    margin-top: 10px;
+}
+
+#servicios .servicio2 footer{
+    margin-bottom: 15px;
+}
+
+#servicios  .servicio2 footer  {
     display: flex;
     justify-content: flex-end;    
 }
 
 
 
-
-
-
-
-/* servicio 2 */
+/* servicio 2 desgloce */
 
 #servicios .boton2{
     background-color: #1E88E5;
@@ -378,7 +396,7 @@ margin-bottom: 15px;
 
 }
 
-#servicios .servicio2 , .servicio3 , .servicio4  ,  footer  { /* agregar servico 3 y 4 */
+#servicios .servicio2a , .servicio2b , .servicio2c  ,  footer  { /* agregar servico 3 y 4 */
     display: flex;
     justify-content: space-around;    
 }
@@ -389,42 +407,14 @@ margin-bottom: 15px;
 }
 
 
-#servicios  h3 {
+#servicios  .servicio2a  , .servicio2b , .servicio2c  ,   h3 {
     margin-top: 20px;
     font-weight: 600;
     }
 
-#servicios  h6 {
-    margin-top: 15px;
-    font-weight: 500;
-    text-indent: 25px;
-    }
-    
-#servicios  h6 span{
-    background-color: white;
-    padding: 5px 5px;
-    margin-top: 5px;
-}
-/* atra carda*/
-#servicios .servicio5 {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-    margin: 30px 0;
-
-    background-color: #BDD9F2;
-    border-radius: 10px;
-
-}
 
 
-
-#servicios .servicio2 , .servicio3 , .servicio4{
+#servicios .servicio2a , .servicio2b , .servicio2c{
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -440,7 +430,7 @@ margin-bottom: 15px;
 
 }
 
-#servicios .texto2 , .texto3 , .texto4{
+#servicios .texto2a , .texto2b , .texto2c{
     display: grid;
     flex-direction: row;
     justify-content: space-between;
@@ -511,9 +501,6 @@ margin-bottom: 15px;
 
 }
 
-
-
-
 #servicios .requisitos{
     font-weight: 600;
     list-style: none;
@@ -526,15 +513,9 @@ margin-bottom: 15px;
 }
 
 
-
-
-
-
-
-
 /* texto en foto */
 
-#servicios .servicio2  h4 {
+#servicios .servicio2a  h4 {
     font-weight: 600;
     color: white;
     text-transform: uppercase;
@@ -542,13 +523,15 @@ margin-bottom: 15px;
     align-items:center;
 }
 
-#servicios .servicio2        span{
+#servicios .servicio2a      span{
     background-color: #030a8c;
     padding: 5px 12px;
     font-size: 16px;
     border-radius: 12px 0;
 }
-#servicios .servicio3 h4 {
+
+
+#servicios .servicio2b h4 {
     font-weight: 600;
     color: white;
     text-transform: uppercase;
@@ -556,13 +539,13 @@ margin-bottom: 15px;
     align-items:center;
 }
 
-#servicios .servicio3  span{
+#servicios .servicio2b  span{
     background-color: #030a8c;
     padding: 5px 12px;
     font-size: 16px;
     border-radius: 12px 0;
 }
-#servicios .servicio4 h4 {
+#servicios .servicio2c h4 {
     font-weight: 600;
     color: white;
     text-transform: uppercase;
@@ -570,7 +553,7 @@ margin-bottom: 15px;
     align-items:center;
 }
 
-#servicios .servicio4  span{
+#servicios .servicio2c  span{
     background-color: #030a8c;
     padding: 5px 12px;
     font-size: 16px;
