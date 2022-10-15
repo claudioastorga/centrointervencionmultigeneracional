@@ -748,20 +748,16 @@ color: #1E88E5;
     height: auto;
     overflow: hidden;
     position: relative;
-   
-    width: 50%;
-margin: 0 auto;
-
-border-radius: 15px;
-background-color: white;
-
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: white;
 }
+
 #vinculos .slider .slide-track{
     animation: scroll 40s linear infinite;
     display: flex;
     width: calc(250px * 7 );
-    
-
 }
 
 #vinculos .slide{
@@ -790,6 +786,8 @@ margin: 0 auto;
     padding: 30px;
     text-align: justify;
     margin-top: 30px;
+    text-indent: 25px;
+
 }
 
 /* noticia */
