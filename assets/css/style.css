@@ -188,7 +188,7 @@ color: #1E88E5;
     text-align: justify;
     text-indent: 25px;
     border-radius: 10px;
-    font-weight: 600;
+    font-weight: 500;
 
 }
 
@@ -258,8 +258,7 @@ color: #1E88E5;
     text-align: justify;
 }
 
-  
-  #servicios .servicio1  .subtitulo {
+#servicios .servicio1  .subtitulo {
     margin-top: 20px;
     margin-left: 0px;
     font-weight: 600;
@@ -729,7 +728,7 @@ color: #1E88E5;
 
 #perfiles .nombre   span{
     background-color:#88aabf;
-    padding: 5px 12px;
+    padding: 5px 15px;
     border-radius: 12px 0;
     align-items:center;
 }
