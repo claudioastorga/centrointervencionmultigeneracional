@@ -579,7 +579,7 @@ color: #1E88E5;
 
 /* seccion azul */
 #carouselExampleInterval {
-    width: 85%;
+    width: 80%;
 
     margin: 0 auto;
     display: flex;
@@ -588,6 +588,9 @@ color: #1E88E5;
     border-radius: 10px;
     height: 100%;
     background-color: #0a4da6;
+
+    min-width: 380px;
+
 
 
 }
@@ -650,6 +653,7 @@ color: #1E88E5;
 #perfiles .detalle  ul{
     list-style: square;
     font-size: 16px;
+    margin-top: 20px;
 
 }
 
@@ -661,7 +665,7 @@ color: #1E88E5;
     border-radius: 50%;
     margin: auto;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
     flex-basis: 260px;
     max-width: 300px;
@@ -676,7 +680,7 @@ color: #1E88E5;
     border-radius: 50%;
     margin: auto;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
     flex-basis: 260px;
     max-width: 300px;
@@ -690,7 +694,7 @@ color: #1E88E5;
     border-radius: 50%;
     margin: auto;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
     flex-basis: 260px;
     max-width: 300px;
@@ -699,13 +703,14 @@ color: #1E88E5;
 
 #perfiles .detalle{
     background-color: #e3edf2;
-    padding: 10px;
+    padding: 15px 10px 1px 10px;
     border-radius: 10px;
 
-    flex-basis: 270px;
-    max-width: 270px;
+    flex-basis: 280px;
+    max-width: 280px;
     flex-grow: 1;
     margin-bottom: 30px;
+
 }
 
 
@@ -713,11 +718,22 @@ color: #1E88E5;
     text-align: right;
 }
 
-#perfiles .detalle h5{
-    padding: 5px;
+
+#perfiles .nombre  {
     font-weight: 600;
-    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 7px;
 }
+
+#perfiles .nombre   span{
+    background-color:#88aabf;
+    padding: 5px 12px;
+    border-radius: 12px 0;
+    align-items:center;
+}
+
 
 #perfiles .botonperfil{
     background-color: #e3edf2;
@@ -752,6 +768,9 @@ color: #1E88E5;
     margin: 0 auto;
     border-radius: 15px;
     background-color: white;
+
+    min-width: 350px;
+
 }
 
 #vinculos .slider .slide-track{
