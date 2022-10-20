@@ -178,13 +178,13 @@ color: #1E88E5;
 }
 
 #presentacion .textopresentacion{
-    background-color: whitesmoke;
+    background-color: #e3edf2;
 
     flex-basis: 400px;
     max-width: 500px;
     flex-grow: 1;
-    margin: 30px 20px;
-    padding: 20px;
+    margin: 60px 20px;
+    padding:  30px;
     text-align: justify;
     text-indent: 25px;
     border-radius: 10px;
@@ -210,7 +210,6 @@ color: #1E88E5;
 #fondo {
     width: 100%;
     margin: 0 auto;
-    background-color: red;
 }
 
 /* servicio 1 */
@@ -559,6 +558,18 @@ color: #1E88E5;
     border-radius: 12px 0;
 }
 
+
+#servicios .modal-title {
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+
+#servicios .modal-header {
+    background-color: #88aabf;
+}
+
+
 /* seccion nosotros */
 
 #nosotros{
@@ -578,7 +589,7 @@ color: #1E88E5;
 
 /* seccion azul */
 #carouselExampleInterval {
-    width: 80%;
+    width: 70%;
 
     margin: 0 auto;
     display: flex;
@@ -589,19 +600,11 @@ color: #1E88E5;
     background-color: #0a4da6;
 
     min-width: 380px;
-
-
-
 }
-
-
 
 #carouselExampleInterval .carousel-inner{
     width: 80%;
-
-
 }
-
 
 #carouselExampleInterval h5{
     color: white;
@@ -610,15 +613,7 @@ color: #1E88E5;
     text-indent: 30px;
     font-weight: 700;
     line-height: 40px;
-
 }
-
-
-
-
-
-
-
 
 /*secion perfiles*/
 
@@ -709,14 +704,7 @@ color: #1E88E5;
     max-width: 280px;
     flex-grow: 1;
     margin-bottom: 30px;
-
 }
-
-
-#perfiles .botonderecha{
-    text-align: right;
-}
-
 
 #perfiles .nombre  {
     font-weight: 600;
@@ -732,7 +720,11 @@ color: #1E88E5;
     border-radius: 12px 0;
     align-items:center;
 }
+/* boton perfil desplegar */
 
+#perfiles .botonderecha{
+    text-align: right;
+}
 
 #perfiles .botonperfil{
     background-color: #e3edf2;
@@ -744,10 +736,14 @@ color: #1E88E5;
     font-size: 14px;
 }
 
+#perfiles .flecha{
+    padding-left: 8px;
+}
 
-
-
-
+#perfiles .btn :hover{
+    background-color: #1E88E5;
+    color: white;
+}
 
 /* seccion vinculos */
 @keyframes scroll{
@@ -779,7 +775,7 @@ color: #1E88E5;
 }
 
 #vinculos .slide{
-    padding: 10px;
+    padding: 20px;
 }
 
 
@@ -796,6 +792,7 @@ margin: 0 auto;
     margin-left: 30px;
     margin-bottom: 50px;
     font-weight: 600;
+    font-family:inherit;
 }
 
 #vinculos .textovinculos{
@@ -1074,7 +1071,7 @@ margin: 0 auto;
     margin: 20px;           
     }
 
-    #piedepagina .footer-col h4{
+    #piedepagina .footer-col h3{
 
     font-weight: 600;
     margin-bottom: 30px;
