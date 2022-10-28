@@ -179,6 +179,7 @@ color: #1E88E5;
 
 #presentacion .textopresentacion{
     background-color: #e3edf2;
+    background: linear-gradient(to bottom right,#e3edf2, #c5e0fb);
 
     flex-basis: 400px;
     max-width: 500px;
@@ -307,6 +308,11 @@ color: #1E88E5;
     color: white;
     text-decoration: none;
 }
+#servicios .color  :active{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
 
 
 
@@ -408,6 +414,7 @@ color: #1E88E5;
     display: inline-block;
 
 }
+
 
 #servicios .flecha{
     padding-left: 8px;
@@ -615,6 +622,7 @@ color: #1E88E5;
     border-radius: 10px;
     height: 100%;
     background-color: #0a4da6;
+    background: linear-gradient(to bottom right,#030a8c,#0a4da6);
 
     min-width: 380px;
 }
@@ -786,7 +794,16 @@ color: #1E88E5;
 #perfiles .btn :hover{
     background-color: #1E88E5;
     color: white;
+    
 }
+
+#perfiles .btn :active{
+    background-color: #030a8c;
+    color: white;
+    
+}
+
+
 
 /* seccion vinculos */
 @keyframes scroll{
