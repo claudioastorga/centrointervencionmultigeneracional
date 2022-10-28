@@ -282,10 +282,10 @@ color: #1E88E5;
 
 #servicios  .servicio1 footer  {
     display: flex;
-    justify-content: flex-end;    
+    justify-content: flex-end;   
 }
 
-#servicios .boton1{
+#servicios  .boton1{
     background-color: #fec768;
     color: white;
     font-weight: 600;
@@ -295,12 +295,17 @@ color: #1E88E5;
     transition: .3s ease all;
     font-weight: bold;
     margin: 15px 20px;
+}
 
+#servicios .boton1 a{
+    text-decoration: none;
+    color: white;
 }
 
 #servicios .color  :hover{
     background-color: #f2b90c;
     color: white;
+    text-decoration: none;
 }
 
 
@@ -378,7 +383,17 @@ color: #1E88E5;
     padding: 5px 25px;
     font-weight: 600;   
     margin: 15px 20px;
+}
 
+#servicios .boton2 a{
+    text-decoration: none;
+    color: white;
+}
+
+#servicios .color2  :hover{
+    background-color: #0a4da6;
+    color: white;
+    text-decoration: none;
 }
 
 #servicios .boton3{
@@ -387,22 +402,23 @@ color: #1E88E5;
     color: #1E88E5;
     border-radius: 7px;
     margin-bottom: 15px;
-    padding: 5px 25px;
+    padding: 5px 20px;
     font-weight: 600;   
     margin: 15px 20px;
     display: inline-block;
 
 }
 
+#servicios .flecha{
+    padding-left: 8px;
+}
+
+
 #servicios .servicio2a , .servicio2b , .servicio2c  ,  footer  { /* agregar servico 3 y 4 */
     display: flex;
     justify-content: space-around;    
 }
 
-#servicios .color2  :hover{
-    background-color: #0a4da6;
-    color: white;
-}
 
 
 #servicios  .servicio2a  , .servicio2b , .servicio2c  ,   h3 {
@@ -570,6 +586,7 @@ color: #1E88E5;
 }
 
 
+
 /* seccion nosotros */
 
 #nosotros{
@@ -680,20 +697,29 @@ color: #1E88E5;
     max-width: 300px;
     flex-grow: 1;
 }
-#perfiles  .perfil123   .perfil3{
+#perfiles  .perfil123 .perfil3{
     background-image: url(../img/Alejandro.jpg);
     background-size: cover;
     width: 260px;
     height: 260px;
     border-radius: 50%;
     margin: auto;
-    display: block;
+    display: inline-block;
     margin-bottom: 30px;
 
     flex-basis: 260px;
     max-width: 300px;
     flex-grow: 1;
 }
+#perfiles .perfil123 .perfil3  :hover {
+    background-size: cover;
+    
+    transform: scale (1.1);
+    transition: all 300ms;
+}
+
+
+
 
 #perfiles .detalle{
     background-color: #e3edf2;
@@ -706,6 +732,16 @@ color: #1E88E5;
     margin-bottom: 30px;
 }
 
+
+
+
+#perfiles .nombre :hover{
+    transform: scale(1.05);
+    transition: all 300ms;
+    background-color: #030a8c;
+}
+
+
 #perfiles .nombre  {
     font-weight: 600;
     color: white;
@@ -713,6 +749,12 @@ color: #1E88E5;
     justify-content: center;
     padding: 7px;
 }
+
+
+
+
+
+
 
 #perfiles .nombre   span{
     background-color:#88aabf;
@@ -724,6 +766,7 @@ color: #1E88E5;
 
 #perfiles .botonderecha{
     text-align: right;
+    cursor: pointer;
 }
 
 #perfiles .botonperfil{
@@ -1118,3 +1161,65 @@ margin: 0 auto;
 
 
 
+   #formulario {
+    width: 90%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#formulario .fondo {
+    width: 100%;
+    background-color: #e3edf2;
+}
+
+#formulario .formulario1 {
+    width: 70%;
+    margin: 50px 0 ;
+    background-color: #FFF7DB;
+    display: grid;
+    flex-direction: row;
+    padding: 50px;
+}
+
+#formulario .formulario1  .subtitulo {
+    margin-top: 20px;
+    margin-left: 0px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    display: flex;
+    align-items:center;
+}
+
+#formulario .formulario1   span{
+    background-color: #f2b90c;
+    padding: 5px 12px;
+    font-size: 14px;
+    border-radius: 12px 0;
+}
+
+#formulario .formulario1 .boton {
+    background-color: #fec768;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 25px;
+    transition: .3s ease all;
+    font-weight: bold;
+    margin: 15px 20px;
+
+}
+
+#formulario  .boton :hover{
+    background-color: #030a8c;
+    color: white;
+}
+
+#formulario  .formulario1 footer  {
+    display: flex;
+    justify-content: flex-end;    
+}
