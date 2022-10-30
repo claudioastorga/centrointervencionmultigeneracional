@@ -1208,8 +1208,8 @@ margin: 0 auto;
 
 
 #formulario .formulario1 {
-    flex-basis: 400px;
-    max-width: 500px;
+    flex-basis: 450px;
+    max-width: 550px;
     min-width: 280px;
     flex-grow: 1;
     margin: 40px 60px ;
