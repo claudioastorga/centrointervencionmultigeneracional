@@ -309,7 +309,7 @@ color: #1E88E5;
     text-decoration: none;
 }
 #servicios .color  :active{
-    background-color: red;
+    background-color: #ff9c08;
     color: white;
     text-decoration: none;
 }
@@ -403,7 +403,7 @@ color: #1E88E5;
 }
 
 #servicios .boton3{
-    background-color: #e3edf2;
+    background-color: transparent;
     border: 2px solid #1E88E5 ;
     color: #1E88E5;
     border-radius: 7px;
@@ -412,29 +412,26 @@ color: #1E88E5;
     font-weight: 600;   
     margin: 15px 20px;
     display: inline-block;
-
 }
-
-
+#servicios .color2 :hover{
+    background-color: #0a4da6;
+    border: transparent;
+}
+#servicios .color2 :active{
+    background-color: #030a8c;
+    border: transparent;
+}
 #servicios .flecha{
     padding-left: 8px;
 }
-
-
 #servicios .servicio2a , .servicio2b , .servicio2c  ,  footer  { /* agregar servico 3 y 4 */
     display: flex;
     justify-content: space-around;    
 }
-
-
-
 #servicios  .servicio2a  , .servicio2b , .servicio2c  ,   h3 {
     margin-top: 20px;
     font-weight: 600;
     }
-
-
-
 #servicios .servicio2a , .servicio2b , .servicio2c{
     width: 100%;
     margin: 0 auto;
@@ -448,9 +445,7 @@ color: #1E88E5;
 
     background-color: #e3edf2;
     border-radius: 10px;
-
 }
-
 #servicios .texto2a , .texto2b , .texto2c{
     display: grid;
     flex-direction: row;
@@ -461,7 +456,6 @@ color: #1E88E5;
     margin: 0 25px;
     text-align: justify;
 }
-
 #servicios .foto2 {
     background-image: url(../img/CIMcarrusel3.jpg);
     background-size: cover;
@@ -480,7 +474,6 @@ color: #1E88E5;
     align-items: flex-end;
     justify-content: center;
 }
-
 #servicios .foto3{
     background-image: url(../img/CIMservicio3.jpg);
     background-size: cover;
@@ -498,10 +491,7 @@ color: #1E88E5;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-
 }
-
-
 #servicios .foto4{
     background-image: url(../img/CIMservicio3.jpg);
     background-size: cover;
@@ -519,18 +509,13 @@ color: #1E88E5;
     display: flex;
     align-items: flex-end;
     justify-content: center;
-
 }
-
 #servicios .requisitos{
     font-weight: 600;
     list-style: none;
 }
-
-
 #servicios  .modal-title{
     font-weight: 600;
-
 }
 
 
@@ -794,16 +779,15 @@ color: #1E88E5;
 #perfiles .btn :hover{
     background-color: #1E88E5;
     color: white;
-    
+    border: 2px solid #1E88E5 ;
+
 }
 
 #perfiles .btn :active{
     background-color: #030a8c;
+    border: 2px solid #030a8c ;
     color: white;
-    
 }
-
-
 
 /* seccion vinculos */
 @keyframes scroll{
@@ -1179,24 +1163,65 @@ margin: 0 auto;
 
 
    #formulario {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     background-color: whitesmoke;
     font-family: 'Source Sans Pro', sans-serif;
-}
+    }
 
-#formulario .fondo {
-    width: 100%;
-    background-color: #e3edf2;
-}
+
+    #formulario .contenido{
+        background-image: url(../img/np_Psychologist\ taking\ down\ notes\ during\ therapy\ session\ with\ female\ patient_5l3Xv0_free.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    
+        margin: 0;
+    }
+
+    #formulario .imagenfondo {
+        background-image: url(../img/icono2.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        
+        height: 300px;
+
+        width: auto ;
+        
+    
+        
+        flex-grow: 1;
+    
+        margin: 30px;
+        padding: 20px;
+    
+    }
+
 
 #formulario .formulario1 {
-    width: 70%;
-    margin: 50px 0 ;
+    flex-basis: 400px;
+    max-width: 500px;
+    min-width: 280px;
+    flex-grow: 1;
+    margin: 40px 60px ;
+    text-align: justify;
+    border-radius: 10px;
+    font-weight: 500;
+
+    
     background-color: #FFF7DB;
     display: grid;
     flex-direction: row;
-    padding: 50px;
+    padding: 30px;
 }
 
 #formulario .formulario1  .subtitulo {
@@ -1218,7 +1243,7 @@ margin: 0 auto;
     border-radius: 12px 0;
 }
 
-#formulario .formulario1 .boton {
+#formulario  .botonenviar {
     background-color: #fec768;
     color: white;
     font-weight: 600;
@@ -1231,10 +1256,18 @@ margin: 0 auto;
 
 }
 
-#formulario  .boton :hover{
-    background-color: #030a8c;
+#formulario .zona .botonenviar   :hover {
+    background-color: #f2b90c;
     color: white;
+    text-decoration: none;
 }
+#formulario  .botonenviar  :active{
+    background-color: #ff9c08;
+    color: white;
+    text-decoration: none;
+}
+
+
 
 #formulario  .formulario1 footer  {
     display: flex;
