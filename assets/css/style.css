@@ -1109,42 +1109,36 @@ margin: 0 auto;
 
     #piedepagina .footer-col{
     width: 20%;
-    min-width: 180px;
+    min-width: 200px;
     gap: 20px;
-    padding: 0 20px;
-    margin: 20px;           
+    padding: 20px;
+    margin: 10px;           
     }
 
-    #piedepagina .footer-col h3{
+    #piedepagina .footer-col h4{
 
     font-weight: 600;
-    margin-bottom: 30px;
-             
-         }
+    margin-bottom: 20px;
+    }
 
     #piedepagina .footer-col ul  a{    
-        font-weight: 600;
-    margin-bottom: 10px;
+    font-weight: 600;
+    margin-bottom: 15px;
     text-decoration: none;
     color: white;
-    display: block;
-                     
+    display: block;    
     }
 
     #piedepagina .footer-col ul li :hover{    
     color: #f2b90c;
     padding-left: 10px;   
     font-weight: 600;
-   
-                 
-    
-        }
+    }
        
-   #piedepagina .logoblanco{
+    #piedepagina .logoblanco{
     background-image: url(../img/CIMlogoblanco.svg);
-    background-size: cover;
     background-repeat: no-repeat;
-    width: 300px;
+    width: 250px;
     height: 65px;
     display: flex;
     
@@ -1155,7 +1149,7 @@ margin: 0 auto;
 
     
 
-    margin: 30px;
+    margin: 60px 15px;
     padding: 20px;
 
    }
@@ -1272,4 +1266,59 @@ margin: 0 auto;
 #formulario  .formulario1 footer  {
     display: flex;
     justify-content: flex-end;    
+}
+
+
+/* boton perfil desplegar */
+
+
+
+
+#formulario .formulario2 {
+    flex-basis: 450px;
+    max-width: 550px;
+    min-width: 280px;
+    flex-grow: 1;
+    margin: 40px 60px ;
+    text-align: justify;
+    border-radius: 10px;
+    font-weight: 500;
+
+    
+    background-color: #e3edf2;
+    display: grid;
+    flex-direction: row;
+    padding: 30px;
+}
+
+#formulario .formulario2  .subtitulo {
+    margin-top: 20px;
+    margin-left: 0px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    display: flex;
+    align-items:center;
+}
+
+#formulario .formulario2   span{
+    background-color: #1E88E5;
+    padding: 5px 12px;
+    font-size: 14px;
+    border-radius: 12px 0;
+}
+
+#formulario .formulario2 .botonenviar {
+    background-color: #0a4da6;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 25px;
+    transition: .3s ease all;
+    font-weight: bold;
+    margin: 15px 20px;
+
 }
