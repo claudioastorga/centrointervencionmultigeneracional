@@ -165,7 +165,7 @@ color: #1E88E5;
 
 }
 
-#presentacion .textopresentacion{
+#presentacion .textopresentacion {
     background-color: #e3edf2;
     background: linear-gradient(to bottom right,#e3edf2, #c5e0fb);
 
@@ -180,6 +180,11 @@ color: #1E88E5;
     font-weight: 500;
 
 }
+#presentacion .textopresentacion h3 {
+    font-weight: 600;
+}
+
+
 
 /*servicios */
 
@@ -194,6 +199,7 @@ color: #1E88E5;
     margin-bottom: 50px;
     font-weight: 600;
 }
+
 
 
 #fondo {
@@ -472,7 +478,7 @@ color: #1E88E5;
     justify-content: center;
 }
 #servicios .foto3{
-    background-image: url(../img/CIMservicio3.jpg);
+    background-image: url(../img/grupo2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -507,6 +513,28 @@ color: #1E88E5;
     align-items: flex-end;
     justify-content: center;
 }
+
+#servicios .foto5{
+    background-image: url(../img/grupo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 380px;
+    height: 280px;
+
+    flex-basis: 450px;
+    max-width: 550px;
+    min-height: 280px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+
 #servicios .requisitos{
     font-weight: 600;
     list-style: none;
