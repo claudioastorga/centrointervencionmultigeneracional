@@ -134,11 +134,10 @@ color: #1E88E5;
     justify-content: center;
     flex-wrap: wrap;
     padding: 25px 10px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #presentacion .presentacion1{
-    
     width: 90%;
     min-width: 380px    ;
 
@@ -152,12 +151,10 @@ color: #1E88E5;
     flex-wrap: wrap;
     background: linear-gradient(to bottom right,#e3edf2, #c5e0fb);
     border-radius: 10px;
-    margin: 40px 20px;
+    margin: 20px 10px;
     padding:  20px;
-
     
     min-height: 380px;
-
 }
 
 
@@ -166,23 +163,22 @@ color: #1E88E5;
     background-image: url(../img/icononegro.svg);
     background-repeat: no-repeat;
     background-position: center;
-    width: 100px;
+    width: auto;
     height: 120px;
     display: flex;
 
     flex-grow: 1;
-    margin: 5px;
+    margin: 10px;
     padding: 10px;
     align-content: center;
-
 }
+
+
+
 
 #presentacion .texto {
     width: 60%;
     min-width: 380px;
-
-   
-    
     margin: 0 auto;
     
     flex-grow: 1;
@@ -198,25 +194,28 @@ color: #1E88E5;
     line-height: 30px;
     margin: 15px 0;
 }
-
 #presentacion .texto h6 {
     font-weight: 600;
     margin-top: 0px;
 }
-
-
 #presentacion .texto h5 {
     font-weight: 500;
     margin-top: 0px;
-    line-height: 30px;
+    line-height: 25px;
 }
 
-#presentacion .texto   span{
+#presentacion .texto1   span{
     background-color: #0a4da6;
     color: white;
     padding: 5px 12px;
     border-radius: 12px 0;
     line-height: 30px;
+}
+
+#presentacion .colorres {
+    background-color: #030a8c;
+    color: white;
+    padding: 5px 12px;
 
 }
 
