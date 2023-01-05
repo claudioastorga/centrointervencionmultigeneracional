@@ -411,12 +411,26 @@ color: #1E88E5;
     border-radius: 5px;
     margin-bottom: 15px;
     border: none;
-    padding: 5px 30px;
+    padding: 5px 40px;
     font-weight: 600;   
     margin: 15px 20px;
 }
 
+#servicios .boton4{
+    background-color: #1E88E5;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: none;
+    padding: 5px 30px;
+    font-weight: 600;   
+    margin: 15px 20px;
+}
 #servicios .boton2 a{
+    text-decoration: none;
+    color: white;
+}
+#servicios .boton4 a{
     text-decoration: none;
     color: white;
 }
