@@ -150,7 +150,7 @@ color: #1E88E5;
     background: linear-gradient(to bottom right,#e3edf2, #c5e0fb);
     border-radius: 12px;
     padding:  20px;
-    min-height: 380px;
+    min-width: 380px;
 }
 #presentacion .logo {
     background-image: url(../img/icononegro.svg);
