@@ -138,9 +138,7 @@ color: #1E88E5;
 }
 
 #presentacion .presentacion1{
-    width: 90%;
-    min-width: 380px    ;
-
+    width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -150,13 +148,10 @@ color: #1E88E5;
     justify-content: space-evenly;
     flex-wrap: wrap;
     background: linear-gradient(to bottom right,#e3edf2, #c5e0fb);
-    border-radius: 10px;
-    margin: 20px 10px;
+    border-radius: 12px;
     padding:  20px;
-    
     min-height: 380px;
 }
-
 #presentacion .logo {
     background-image: url(../img/icononegro.svg);
     background-repeat: no-repeat;
@@ -164,20 +159,16 @@ color: #1E88E5;
     width: auto;
     height: 120px;
     display: flex;
-
     flex-grow: 1;
-    margin: 10px;
     padding: 10px;
     align-content: center;
 }
-
 #presentacion .texto {
     width: 60%;
     min-width: 380px;
     margin: 0 auto;
-    
     flex-grow: 1;
-    padding:  25px;
+    padding:  30px;
     text-align: none;
     text-align-last: left;
     hyphens: auto;
@@ -185,20 +176,16 @@ color: #1E88E5;
 }
 #presentacion .texto h2 {
     font-weight: 600;
-    margin-top: 0px;
     line-height: 30px;
-    margin: 15px 0;
+    padding: 10px 0;
 }
 #presentacion .texto h6 {
     font-weight: 600;
-    margin-top: 0px;
 }
 #presentacion .texto h5 {
     font-weight: 500;
-    margin-top: 0px;
     line-height: 25px;
 }
-
 
 /*servicios */
 
@@ -213,7 +200,6 @@ color: #1E88E5;
     font-weight: 600;
 }
 
-
 /* servicio 1 */
 
 #servicios .servicio1{
@@ -224,15 +210,11 @@ color: #1E88E5;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
     margin: 40px 0 50px 0;
-
     background-color: #FFF7DB;
     border-radius: 10px;
     padding: 30px 0;
-
 }
-
 #servicios .foto1 {
     background-image: url(../img/servicio1.jpg);
     background-size: cover;
@@ -240,22 +222,13 @@ color: #1E88E5;
     background-position: center;
     
     width: 380px;
-    height: 400px;
+    height: 430px;
 
     flex-basis: 450px;
     max-width: 550px;
-    min-height: 350px;
     border-radius: 10px;
+    border-radius: 30px 0;
 }
-
-
-
-
-#servicios  .fondotexto {
-    display: flex;
-    justify-content: space-around;
-}
-
 #servicios .servicio1 .texto1  {
     display: grid;
     flex-direction: row;
@@ -265,8 +238,8 @@ color: #1E88E5;
     flex-grow: 1;
     margin: 0px;
     text-align: left;
+    padding: 30px;
 }
-
 #servicios .servicio1  .subtitulo {
     margin-top: 20px;
     margin-left: 0px;
@@ -274,44 +247,42 @@ color: #1E88E5;
     color: white;
     text-transform: uppercase;
     font-weight: 700;
-
     display: flex;
     align-items:center;
 }
-
 #servicios .servicio1   span{
     background-color: #f2b90c;
-    padding: 5px 12px;
+    padding: 5px 15px;
     font-size: 14px;
     border-radius: 12px 0;
 }
-
-#servicios .servicio1 h6{
-    margin-top: 10px;
+#servicios .servicio1 h1{
+    padding: 10px 0;
 }
-
+#servicios .servicio1 h6{
+    line-height: 22px;
+}
 #servicios  .servicio1 footer  {
     display: flex;
     justify-content: flex-end;   
+    padding: 30px 0 0 0;
 }
-
 #servicios  .boton1{
     background-color: #fec768;
+    background-color: #f2b90c;
+
     color: white;
-    font-weight: 600;
     border-radius: 5px;
     border: none;
-    padding: 5px 50px;
+    padding: 10px 60px;
     transition: .3s ease all;
-    font-weight: bold;
-    margin: 15px 20px;
+    text-transform: uppercase;
+    font-weight: 800;
 }
-
 #servicios .boton1 a{
     text-decoration: none;
     color: white;
 }
-
 #servicios .color  :hover{
     background-color: #f2b90c;
     color: white;
@@ -327,31 +298,40 @@ color: #1E88E5;
 
 #servicios .servicio2 {
     width: 100%;
-    margin: 0 auto;
+    margin: 0px ;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-
     margin: 40px 0 50px 0;
-
     background-color: #c5e0fb;
     border-radius: 10px;
-
+    padding: 30px 0;
 }
-
+#servicios .foto2 {
+    background-image: url(../img/servicio2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 380px;
+    height: 430px;
+    flex-basis: 450px;
+    max-width: 550px;
+    border-radius: 10px;
+    border-radius: 30px 0;
+}
 #servicios .texto2  {
     display: grid;
     flex-direction: row;
-    justify-content: flex-start;
-    flex-basis: 500px;
+    justify-content: center;
+    flex-basis: 600px;
     max-width: 600px;
     flex-grow: 1;
-    margin: 0 25px;
-    text-align: justify;
+    margin: 0px;
+    text-align: left;
+    padding: 30px;
 }
-
 #servicios .servicio2  .subtitulo {
     margin-top: 20px;
     margin-left: 0px;
@@ -362,42 +342,58 @@ color: #1E88E5;
     display: flex;
     align-items:center;
 }
-
 #servicios .servicio2   span{
     background-color: #1E88E5;
-    padding: 5px 12px;
+    padding: 5px 15px;
     font-size: 14px;
     border-radius: 12px 0;
 }
-
+#servicios .servicio2 h1{
+    padding: 10px 0;
+}
 #servicios .servicio2 h6{
-    margin-top: 10px;
+    line-height: 22px;
 }
-
 #servicios .servicio2 footer{
-    margin-bottom: 15px;
-}
-
-#servicios  .servicio2 footer  {
     display: flex;
-    justify-content: flex-end;    
+    justify-content: flex-end;   
+    padding: 30px 0 0 0;
 }
-
-
-
-/* servicio 2 desgloce */
-
 #servicios .boton2{
     background-color: #1E88E5;
     color: white;
     border-radius: 5px;
-    margin-bottom: 15px;
     border: none;
-    padding: 5px 40px;
-    font-weight: 600;   
-    margin: 15px 20px;
+    padding: 10px 60px;
+    transition: .3s ease all;
+    text-transform: uppercase;
+    font-weight: 800;
 }
 
+#servicios .boton2 a{
+    text-decoration: none;
+    color: white;
+}
+
+#servicios .color2  :hover{
+    background-color: #0a4da6;
+    color: white;
+    text-decoration: none;
+}
+#servicios .color2 :hover{
+    background-color: #0a4da6;
+    border: transparent;
+}
+#servicios .color2 :active{
+    background-color: #030a8c;
+    border: transparent;
+}
+#servicios .flecha{
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+/* servicio 2 desgloce */
 #servicios .boton4{
     background-color: #1E88E5;
     color: white;
@@ -408,20 +404,12 @@ color: #1E88E5;
     font-weight: 600;   
     margin: 15px 20px;
 }
-#servicios .boton2 a{
-    text-decoration: none;
-    color: white;
-}
+
 #servicios .boton4 a{
     text-decoration: none;
     color: white;
 }
 
-#servicios .color2  :hover{
-    background-color: #0a4da6;
-    color: white;
-    text-decoration: none;
-}
 
 #servicios .boton3{
     background-color: transparent;
@@ -434,17 +422,7 @@ color: #1E88E5;
     margin: 15px 20px;
     display: inline-block;
 }
-#servicios .color2 :hover{
-    background-color: #0a4da6;
-    border: transparent;
-}
-#servicios .color2 :active{
-    background-color: #030a8c;
-    border: transparent;
-}
-#servicios .flecha{
-    padding-left: 8px;
-}
+
 #servicios .servicio2a , .servicio2b , .servicio2c  ,  footer  { /* agregar servico 3 y 4 */
     display: flex;
     justify-content: space-around;    
@@ -483,24 +461,7 @@ color: #1E88E5;
     margin: 0 25px;
     text-align: justify;
 }
-#servicios .foto2 {
-    background-image: url(../img/servicio2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    width: 380px;
-    height: 280px;
 
-    flex-basis: 450px;
-    max-width: 550px;
-    min-height: 280px;
-    border-radius: 10px;
-
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-}
 #servicios .foto3{
     background-image: url(../img/grupo1.jpg);
     background-size: cover;
