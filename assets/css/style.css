@@ -64,7 +64,7 @@ color: #1E88E5;
     justify-content: center;
 
     width: 100%;
-    height: 400px;
+    height: 430px;
 
     flex-basis: 100%;
     max-width: 1200px;
@@ -81,7 +81,7 @@ color: #1E88E5;
     justify-content: top;
 
     width: 100%;
-    height: 400px;
+    height: 430px;
 
     flex-basis: 100%;
     max-width: 1200px;
@@ -97,7 +97,7 @@ color: #1E88E5;
     border-radius: 40px 0;
 
     width: 100%;
-    height: 400px;
+    height: 430px;
 
     flex-basis: 100%;
     max-width: 1200px;
@@ -211,7 +211,6 @@ color: #1E88E5;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 40px 0 50px 0;
-    background-color: #FFF7DB;
     border-radius: 10px;
     padding: 30px 0;
 }
@@ -221,28 +220,28 @@ color: #1E88E5;
     background-repeat: no-repeat;
     background-position: center;
     
-    width: 380px;
+    width: 40%;
     height: 430px;
 
     flex-basis: 450px;
     max-width: 550px;
-    border-radius: 10px;
     border-radius: 30px 0;
 }
 #servicios .servicio1 .texto1  {
     display: grid;
     flex-direction: row;
     justify-content: center;
+    width: 60%;
+    height: 430px;
+
     flex-basis: 600px;
-    max-width: 600px;
     flex-grow: 1;
     margin: 0px;
     text-align: left;
-    padding: 30px;
+    padding: 30px 50px;
+    background-color: #FFF7DB;
 }
 #servicios .servicio1  .subtitulo {
-    margin-top: 20px;
-    margin-left: 0px;
     font-weight: 600;
     color: white;
     text-transform: uppercase;
@@ -274,10 +273,10 @@ color: #1E88E5;
     color: white;
     border-radius: 5px;
     border: none;
-    padding: 10px 60px;
+    padding: 0 60px;
     transition: .3s ease all;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 700;
 }
 #servicios .boton1 a{
     text-decoration: none;
@@ -305,7 +304,6 @@ color: #1E88E5;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 40px 0 50px 0;
-    background-color: #c5e0fb;
     border-radius: 10px;
     padding: 30px 0;
 }
@@ -314,23 +312,24 @@ color: #1E88E5;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 380px;
+    width: 40%;
     height: 430px;
     flex-basis: 450px;
     max-width: 550px;
-    border-radius: 10px;
     border-radius: 30px 0;
 }
 #servicios .texto2  {
     display: grid;
     flex-direction: row;
     justify-content: center;
+    width: 60%;
+    height: 430px;
     flex-basis: 600px;
-    max-width: 600px;
     flex-grow: 1;
     margin: 0px;
     text-align: left;
-    padding: 30px;
+    padding: 30px 50px;
+    background-color: #c5e0fb;
 }
 #servicios .servicio2  .subtitulo {
     margin-top: 20px;
@@ -364,26 +363,22 @@ color: #1E88E5;
     color: white;
     border-radius: 5px;
     border: none;
-    padding: 10px 60px;
+    padding: 0 60px;
     transition: .3s ease all;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 700;
 }
-
 #servicios .boton2 a{
     text-decoration: none;
     color: white;
 }
-
 #servicios .color2  :hover{
     background-color: #0a4da6;
     color: white;
     text-decoration: none;
-}
-#servicios .color2 :hover{
-    background-color: #0a4da6;
     border: transparent;
 }
+
 #servicios .color2 :active{
     background-color: #030a8c;
     border: transparent;
@@ -393,23 +388,7 @@ color: #1E88E5;
     font-weight: 700;
 }
 
-/* servicio 2 desgloce */
-#servicios .boton4{
-    background-color: #1E88E5;
-    color: white;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    border: none;
-    padding: 5px 30px;
-    font-weight: 600;   
-    margin: 15px 20px;
-}
-
-#servicios .boton4 a{
-    text-decoration: none;
-    color: white;
-}
-
+/* servicio profesionales desgloce */
 
 #servicios .boton3{
     background-color: transparent;
@@ -419,61 +398,73 @@ color: #1E88E5;
     margin-bottom: 15px;
     padding: 5px 30px;
     font-weight: 600;   
-    margin: 15px 20px;
+    margin: 0px 20px;
+    margin-top: 15px;
     display: inline-block;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-#servicios .servicio2a , .servicio2b , .servicio2c  ,  footer  { /* agregar servico 3 y 4 */
+#servicios .boton4{
+    background-color: #1E88E5;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: none;
+    padding: 5px 30px;
+    font-weight: 600;   
+    margin: 0px 20px;
+    margin-top: 15px;
+    
+}
+#servicios .boton4 a{
+    text-decoration: none;
+    color: white;
+}
+#servicios .servicio2a , .servicio2b , .servicio2c  ,  footer  { 
     display: flex;
     justify-content: space-around;    
 }
 #servicios  .servicio2a  , .servicio2b , .servicio2c  ,   h3 {
-    margin-top: 20px;
     font-weight: 600;
     }
 #servicios .servicio2a , .servicio2b , .servicio2c{
     width: 100%;
-    margin: 0 auto;
+    margin: 0px ;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-
-    margin: 50px 0;
-
-    background-color: #e3edf2;
     border-radius: 10px;
+    padding: 20px 0;
 }
-#servicios .boton3 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 #servicios .texto2a , .texto2b , .texto2c{
     display: grid;
     flex-direction: row;
-    justify-content: space-between;
-    flex-basis: 500px;
-    max-width: 600px;
-    flex-grow: 1;
-    margin: 0 25px;
-    text-align: justify;
-}
+    justify-content: center;
+    width: 60%;
+    height: 280px;
 
+    flex-basis: 600px;
+    flex-grow: 1;
+    text-align: left;
+    padding: 30px 50px;
+    background-color: #e3edf2;
+}
 #servicios .foto3{
     background-image: url(../img/grupo1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     
-    width: 380px;
+    width: 40%;
     height: 280px;
 
     flex-basis: 450px;
     max-width: 550px;
-    min-height: 280px;
     border-radius: 10px;
 
     display: flex;
@@ -486,7 +477,7 @@ color: #1E88E5;
     background-repeat: no-repeat;
     background-position: center;
     
-    width: 380px;
+    width: 40%;
     height: 280px;
 
     flex-basis: 450px;
@@ -505,7 +496,7 @@ color: #1E88E5;
     background-repeat: no-repeat;
     background-position: center;
     
-    width: 380px;
+    width: 40%;
     height: 280px;
 
     flex-basis: 450px;
@@ -623,12 +614,11 @@ color: #1E88E5;
     width: 80%;
 }
 
-#carouselExampleInterval h5{
+#carouselExampleInterval h4{
     color: white;
-    text-align: justify;
+    text-align: left;
     padding: 50px 30px;
-    text-indent: 30px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 40px;
 }
 
