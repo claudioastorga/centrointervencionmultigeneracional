@@ -144,7 +144,6 @@ color: #1E88E5;
     flex-direction: row;
     align-items: center;
     align-content: center;
-
     justify-content: space-evenly;
     flex-wrap: wrap;
     background: linear-gradient(to bottom right,#e3edf2, #c5e0fb);
@@ -196,7 +195,6 @@ color: #1E88E5;
 #servicios .seccion {
     margin-top: 20px;
     margin-left: 30px;
-    margin-bottom: 50px;
     font-weight: 600;
 }
 
@@ -221,7 +219,7 @@ color: #1E88E5;
     background-position: center;
     
     width: 40%;
-    height: 430px;
+    height: 27rem;
 
     flex-basis: 450px;
     max-width: 550px;
@@ -234,7 +232,7 @@ color: #1E88E5;
     align-items: center;
     align-content: center;
     width: 60%;
-    height: 430px;
+    height: 27rem;
 
     flex-basis: 600px;
     flex-grow: 1;
@@ -270,8 +268,6 @@ color: #1E88E5;
 }
 #servicios  .boton1{
     background-color: #f2b90c;
-
-
     color: white;
     border-radius: 5px;
     border: none;
@@ -307,7 +303,6 @@ color: #1E88E5;
     flex-wrap: wrap;
     margin: 40px 0 50px 0;
     border-radius: 10px;
-    padding: 30px 0;
 }
 #servicios .foto2 {
     background-image: url(../img/servicio2.jpg);
@@ -315,7 +310,7 @@ color: #1E88E5;
     background-repeat: no-repeat;
     background-position: center;
     width: 40%;
-    height: 430px;
+    height: 27rem;
     flex-basis: 450px;
     max-width: 550px;
     border-radius: 30px 0;
@@ -327,7 +322,7 @@ color: #1E88E5;
     align-items: center;
     align-content: center;
     width: 60%;
-    height: 430px;
+    height: 27rem;
     flex-basis: 600px;
     flex-grow: 1;
     margin: 0px;
@@ -382,7 +377,6 @@ color: #1E88E5;
     text-decoration: none;
     border: transparent;
 }
-
 #servicios .color2 :active{
     background-color: #030a8c;
     border: transparent;
@@ -405,12 +399,10 @@ color: #1E88E5;
     margin: 0px 20px;
     margin-top: 15px;
     display: inline-block;
-
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-
 #servicios .boton4{
     background-color: #1E88E5;
     color: white;
@@ -421,7 +413,6 @@ color: #1E88E5;
     font-weight: 600;   
     margin: 0px 20px;
     margin-top: 15px;
-    
 }
 #servicios .boton4 a{
     text-decoration: none;
@@ -465,15 +456,11 @@ color: #1E88E5;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
     width: 40%;
     height: 20rem;
-
-
     flex-basis: 450px;
     max-width: 550px;
     border-radius: 10px;
-
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -483,15 +470,11 @@ color: #1E88E5;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
     width: 40%;
     height: 20rem;
-
-
     flex-basis: 450px;
     max-width: 550px;
     border-radius: 10px;
-
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -502,15 +485,11 @@ color: #1E88E5;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
     width: 40%;
     height: 20rem;
-
-
     flex-basis: 450px;
     max-width: 550px;
     border-radius: 10px;
-
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -599,7 +578,7 @@ color: #1E88E5;
     margin-left: 30px;
     margin-bottom: 50px;
     font-weight: 600;
-    
+    padding: 30px;    
 }
 
 /* seccion azul */
@@ -608,13 +587,14 @@ color: #1E88E5;
     margin: 0 auto;
     display: flex;
     justify-content: center;
-
     border-radius: 10px;
     height: 100%;
     background-color: #0a4da6;
     background: linear-gradient(to bottom right,#030a8c,#0a4da6);
 
     min-width: 380px;
+    padding: 10px 5px;
+    margin-bottom: 70px;
 }
 
 #carouselExampleInterval .carousel-inner{
