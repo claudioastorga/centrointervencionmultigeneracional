@@ -231,6 +231,8 @@ color: #1E88E5;
     display: grid;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    align-content: center;
     width: 60%;
     height: 430px;
 
@@ -267,13 +269,13 @@ color: #1E88E5;
     padding: 30px 0 0 0;
 }
 #servicios  .boton1{
-    background-color: #fec768;
     background-color: #f2b90c;
+
 
     color: white;
     border-radius: 5px;
     border: none;
-    padding: 0 60px;
+    padding: 7px 60px;
     transition: .3s ease all;
     text-transform: uppercase;
     font-weight: 700;
@@ -283,7 +285,7 @@ color: #1E88E5;
     color: white;
 }
 #servicios .color  :hover{
-    background-color: #f2b90c;
+    background-color: #ffac4b;
     color: white;
     text-decoration: none;
 }
@@ -322,6 +324,8 @@ color: #1E88E5;
     display: grid;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    align-content: center;
     width: 60%;
     height: 430px;
     flex-basis: 600px;
@@ -363,7 +367,7 @@ color: #1E88E5;
     color: white;
     border-radius: 5px;
     border: none;
-    padding: 0 60px;
+    padding: 7px 60px;
     transition: .3s ease all;
     text-transform: uppercase;
     font-weight: 700;
@@ -445,8 +449,10 @@ color: #1E88E5;
     display: grid;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    align-content: center;
     width: 60%;
-    height: 280px;
+    height: 20rem;
 
     flex-basis: 600px;
     flex-grow: 1;
@@ -461,7 +467,8 @@ color: #1E88E5;
     background-position: center;
     
     width: 40%;
-    height: 280px;
+    height: 20rem;
+
 
     flex-basis: 450px;
     max-width: 550px;
@@ -478,11 +485,11 @@ color: #1E88E5;
     background-position: center;
     
     width: 40%;
-    height: 280px;
+    height: 20rem;
+
 
     flex-basis: 450px;
     max-width: 550px;
-    min-height: 280px;
     border-radius: 10px;
 
     display: flex;
@@ -497,11 +504,11 @@ color: #1E88E5;
     background-position: center;
     
     width: 40%;
-    height: 280px;
+    height: 20rem;
+
 
     flex-basis: 450px;
     max-width: 550px;
-    min-height: 280px;
     border-radius: 10px;
 
     display: flex;
