@@ -258,18 +258,16 @@ color: #1E88E5;
     border-radius: 12px 0;
 }
 #servicios .servicio1 h1{
-    padding: 10px 0;
+    padding: 3px 0;
 }
 #servicios .servicio1 h6{
     line-height: 22px;
     padding: 0 0 10px 0;
-
 }
 #servicios  .servicio1 footer  {
     display: flex;
     justify-content: flex-end;   
     padding:  0;
-    background-color: lightcoral;
 }
 #servicios  .boton1{
     background-color: #f2b90c;
@@ -352,15 +350,16 @@ color: #1E88E5;
     border-radius: 12px 0;
 }
 #servicios .servicio2 h1{
-    padding: 10px 0;
+    padding: 3px 0;
 }
 #servicios .servicio2 h6{
     line-height: 22px;
+    padding: 0 0 10px 0;
 }
 #servicios .servicio2 footer{
     display: flex;
     justify-content: flex-end;   
-    padding: 30px 0 0 0;
+    padding: 0;
 }
 #servicios .boton2{
     background-color: #1E88E5;
