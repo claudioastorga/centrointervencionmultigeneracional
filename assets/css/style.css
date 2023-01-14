@@ -1078,7 +1078,7 @@ margin: 0 auto;
     background-position: center;
     height: 45px;
     width: auto ;
-    margin: 20px 0;
+    margin: 20px ;
 }
 #formulario .formulario1   span{
     background-color: #f2b90c;
@@ -1087,7 +1087,7 @@ margin: 0 auto;
     border-radius: 12px 0;
 }
 #formulario  .formulario1 h1 {
-    font-weight: 500;
+    font-weight: 600;
 }
 #formulario  .botonenviar {
     background-color: #f2b90c;
@@ -1150,7 +1150,7 @@ margin: 0 auto;
     align-items:center;
 }
 #formulario  .formulario2 h1 {
-    font-weight: 500;
+    font-weight: 600;
 }
 #formulario .formulario2   span{
     background-color: #1E88E5;
