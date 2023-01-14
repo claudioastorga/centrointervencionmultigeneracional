@@ -8,44 +8,34 @@ body{
 
 #barranavegacion{
     font-family: 'Source Sans Pro', sans-serif;
-color: black;}
-
-
+    color: black;}
 #barranavegacion {
     width: 100%;
     margin: 0 auto;
     background-color: whitesmoke;
-
 }
 .logo{
-width: 20%;
-justify-content: flex-start;
-
+    width: 20%;
+    justify-content: flex-start;
 }
 #menu  {
     width: 90%;
     margin: 0 auto;
     justify-content: space-between;
-
 }
-
-
 #barranavegacion .categorias {
     font-weight: 600;
     text-decoration: none;
     gap: 20px;
     font-family: 'Source Sans Pro', sans-serif;
     color: black;
-  }
-
+} 
 #barranavegacion .categorias :hover {
-font-weight: 600;  
-color: #1E88E5;
+    font-weight: 600;  
+    color: #1E88E5;
 }
-
 /* carrusel*/
 #carouselExampleDark{
- 
     width: 90%;
     margin: 0 auto;
    
@@ -53,9 +43,8 @@ color: #1E88E5;
     align-items: center;
     justify-content: center;
 }
-
 #carouselExampleDark .fotocarrusel1{
-    background-image: url(../img/CIMcarrusel1.jpg);
+    background-image: url(../img/carrusel1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -70,9 +59,8 @@ color: #1E88E5;
     max-width: 1200px;
     min-height: 350px;
 }
-
 #carouselExampleDark .fotocarrusel2{
-    background-image: url(../img/CIMcarrusel2.jpg);
+    background-image: url(../img/carrusel2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -86,7 +74,6 @@ color: #1E88E5;
     flex-basis: 100%;
     max-width: 1200px;
     min-height: 350px;
-
 }
 #carouselExampleDark .fotocarrusel3{
     background-image: url(../img/carrusel3.jpg);
@@ -103,7 +90,6 @@ color: #1E88E5;
     max-width: 1200px;
     min-height: 350px;
 }
-
 #carouselExampleDark .textocarrusel{
     font-style: oblique;
     color: white;
@@ -117,11 +103,9 @@ color: #1E88E5;
     text-shadow: 2px 2px 2px #555658;
     align-content: center;
     font-weight: 500;
-
 }
 
 /* seccion presentacion */
-
 #presentacion{
     width: 90%;
     margin: 0 auto;
@@ -187,7 +171,6 @@ color: #1E88E5;
 }
 
 /*servicios */
-
 #servicios {
     width: 90%;
     margin: 0 auto;
