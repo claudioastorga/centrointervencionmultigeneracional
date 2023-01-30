@@ -300,6 +300,9 @@ body{
     flex-basis: 450px;
     max-width: 550px;
     border-radius: 30px 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 #servicios .texto2  {
     display: grid;
@@ -372,6 +375,22 @@ body{
     padding-left: 10px;
     font-weight: 700;
 }
+/* texto marzo en foto  */
+
+#servicioprofesional .foto2 h4 {
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items:center;
+}
+
+#servicioprofesional .foto2  span{
+    background-color: #030a8c;
+    padding: 5px 12px;
+    font-size: 16px;
+    border-radius: 12px 0;
+}
 
 /* servicio profesionales desgloce */
 
@@ -438,6 +457,26 @@ body{
     padding: 30px 50px;
     background-color: #e3edf2;
 }
+
+#servicios .texto2a  .subtitulo {
+    margin-top: 20px;
+    margin-left: 0px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items:center;
+}
+#servicios .texto2a   span{
+    background-color: #1E88E5;
+    padding: 5px 15px;
+    font-size: 14px;
+    border-radius: 12px 0;
+}
+
+
+
 #servicios .foto3{
     background-image: url(../img/grupo1.jpg);
     background-size: cover;
@@ -929,24 +968,23 @@ margin: 0 auto;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
+    
         background-color: #030a8c;
         color: white;
         padding: 70px 0 ;
     }
-
     #piedepagina .row{
     width: 100%;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;    
     }
-       
     #piedepagina ul{
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        font-size: 14px;    }
-
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;    
+    }
     #piedepagina .footer-col{
     width: 20%;
     min-width: 200px;
@@ -954,13 +992,10 @@ margin: 0 auto;
     padding: 10px;
     margin: 10px;           
     }
-
     #piedepagina .footer-col h4{
-
     font-weight: 700;
     margin-bottom: 20px;
     }
-
     #piedepagina .footer-col ul  a{    
     font-weight: 600;
     margin-bottom: 15px;
@@ -981,23 +1016,23 @@ margin: 0 auto;
     width: 150;
     height: 120px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     
     flex-basis: 300px;
     max-width: 350px;
     flex-grow: 1;
 
-    
-
     margin:  10px;
     padding: 20px;
     margin-left: 50px;
-
    }
 
    #piedepagina .linea{
-       display: flex;
-       flex-direction: row;
-       align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
    }
 
    #piedepagina .icono{
@@ -1009,12 +1044,7 @@ margin: 0 auto;
 #piedepagina .espacio{
     margin-top: 10px;
 }
-
-
-
 /* formulario 1 */
-
-
 #formulario {
     width: 100%;
     margin: 0 auto;
