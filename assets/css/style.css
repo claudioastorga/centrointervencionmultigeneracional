@@ -387,7 +387,7 @@ body{
 
 #servicioprofesional .foto2  span{
     background-color: #030a8c;
-    padding: 5px 12px;
+    padding: 5px 20px;
     font-size: 16px;
     border-radius: 12px 0;
 }
@@ -468,13 +468,12 @@ body{
     display: flex;
     align-items:center;
 }
-#servicios .texto2a   span{
+#servicios .texto2a .subtitulo  span{
     background-color: #1E88E5;
     padding: 5px 15px;
     font-size: 14px;
     border-radius: 12px 0;
 }
-
 
 
 #servicios .foto3{
@@ -585,8 +584,7 @@ body{
 }
 
 #servicios .modal-header {
-    background-color: #030a8c;
-}
+    background: linear-gradient(to bottom right,#030a8c,#0a4da6);}
 
 
 
@@ -614,7 +612,6 @@ body{
     justify-content: center;
     border-radius: 10px;
     height: 100%;
-    background-color: #0a4da6;
     background: linear-gradient(to bottom right,#030a8c,#0a4da6);
 
     min-width: 380px;
