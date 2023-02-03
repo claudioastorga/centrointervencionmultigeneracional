@@ -912,12 +912,12 @@ margin: 0 auto;
     align-items: center;
     align-content: center;
     width: 60%;
-    height: 20rem;
+    height: 22rem;
 
     flex-basis: 600px;
     flex-grow: 1;
     text-align: left;
-    padding: 30px 50px;
+    padding: 30px 30px;
     background-color: white;
 }
 
@@ -955,7 +955,7 @@ margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
     width: 40%;
-    height: 20rem;
+    height: 22rem;
     flex-basis: 450px;
     max-width: 550px;
     border-radius: 10px;
@@ -969,7 +969,7 @@ margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
     width: 40%;
-    height: 20rem;
+    height: 22rem;
     flex-basis: 450px;
     max-width: 550px;
     border-radius: 10px;
