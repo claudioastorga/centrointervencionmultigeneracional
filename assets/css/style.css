@@ -458,8 +458,9 @@ body{
     background-color: #e3edf2;
 }
 
+/* texto marzo 2023  */
 #servicios .texto2a  .subtitulo {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 0px;
     font-weight: 600;
     color: white;
@@ -468,12 +469,47 @@ body{
     display: flex;
     align-items:center;
 }
-#servicios .texto2a .subtitulo  span{
+#servicios .texto2a  .subtitulo  span{
+    background-color: #1E88E5;
+    padding: 3px 15px;
+    font-size: 14px;
+    border-radius: 12px 0;
+}
+#servicios .texto2b  .subtitulo {
+    margin-top: 10px;
+    margin-left: 0px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items:center;
+}
+#servicios .texto2b  .subtitulo  span{
     background-color: #1E88E5;
     padding: 5px 15px;
     font-size: 14px;
     border-radius: 12px 0;
 }
+#servicios .texto2c  .subtitulo {
+    margin-top: 10px;
+    margin-left: 0px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items:center;
+}
+#servicios .texto2c  .subtitulo  span{
+    background-color: #1E88E5;
+    padding: 5px 15px;
+    font-size: 14px;
+    border-radius: 12px 0;
+}
+
+
+/* fotos */
 
 
 #servicios .foto3{
@@ -900,7 +936,35 @@ margin: 0 auto;
     justify-content: center;
 }
 #noticias .fotonoticia2{
-    background-image: url(../img/andolfi.JPG);
+    background-image: url(../img/valparaiso.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    height: 20rem;
+    flex-basis: 450px;
+    max-width: 550px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#noticias .fotonoticia3{
+    background-image: url(../img/jornada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    height: 20rem;
+    flex-basis: 450px;
+    max-width: 550px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#noticias .fotonoticia4{
+    background-image: url(../img/italia.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -917,24 +981,27 @@ margin: 0 auto;
 #noticias .textonoticia1 h3{
     font-weight: 600;
 }
+#noticias .textonoticia1 h4{
+    font-weight: 600;
+}
 #noticias .btnnoticias{
     display: flex;
     justify-content: flex-end;
 }
 
 #noticias  p span  {
-    background-color: #BDD9F2;
-    color: #555658;
+    background-color: #1E88E5;
+    color: white;
     margin-top: 10px;
 
-    border-radius: 15px;
+    border-radius: 12px;
     margin-bottom: 15px;
     border: none;
-    padding: 5px 15px;
+    padding: 5px 25px;
 }
 
 #noticias .btnnoticias :hover{
-    background-color: #88aabf;
+    background-color: #030a8c;
     color: white;
     content: texto;
 }
