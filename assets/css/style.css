@@ -673,6 +673,15 @@ body{
     width: 90%;
     margin: 0 auto;
 }
+
+#perfiles .seccion {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-family:inherit;
+}
+
 #perfiles .perfil123{
     background-color: #BDD9F2;
     width: 100%;
@@ -780,7 +789,7 @@ body{
 
 
 #perfiles .nombre   span{
-    background-color:#88aabf;
+    background-color:#0a4da6;
     padding: 5px 18px;
     border-radius: 12px 0;
     align-items:center;
@@ -868,7 +877,7 @@ body{
 }
 
 #perfilessocias .perfil1234 .perfil1{
-    background-image: url(../img/Alicia\(1\).jpg);
+    background-image: url(../img/meugenia.jpg);
     background-size: cover;
     width: 240px;
     height: 240px;
@@ -883,7 +892,7 @@ body{
 }
 
 #perfilessocias .perfil1234 .perfil2{
-    background-image: url(../img/daniela-kupher.jpg);
+    background-image: url(../img/geraldine.jpg);
     background-size: cover;
     width: 240px;
     height: 240px;
@@ -897,7 +906,7 @@ body{
     flex-grow: 1;
 }
 #perfilessocias  .perfil1234 .perfil3{
-    background-image: url(../img/Alejandro.jpg);
+    background-image: url(../img/ximena.jpg);
     background-size: cover;
     width: 240px;
     height: 240px;
@@ -946,7 +955,7 @@ body{
 }
 
 #perfilessocias .nombre   span{
-    background-color:#88aabf;
+    background-color:#1E88E5;
     padding: 5px 18px;
     border-radius: 12px 0;
     align-items:center;
