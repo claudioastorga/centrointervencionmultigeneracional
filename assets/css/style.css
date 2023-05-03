@@ -449,7 +449,7 @@ body{
     align-items: center;
     align-content: center;
     width: 60%;
-    height: 20rem;
+    height: 22rem;
 
     flex-basis: 600px;
     flex-grow: 1;
@@ -518,7 +518,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     width: 40%;
-    height: 20rem;
+    height: 22rem;
     flex-basis: 450px;
     max-width: 550px;
     border-radius: 10px;
@@ -532,7 +532,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     width: 40%;
-    height: 20rem;
+    height: 22rem;
     flex-basis: 450px;
     max-width: 550px;
     border-radius: 10px;
@@ -547,7 +547,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     width: 40%;
-    height: 20rem;
+    height: 22rem;
     flex-basis: 450px;
     max-width: 550px;
     border-radius: 10px;
@@ -821,6 +821,172 @@ body{
     color: white;
 }
 
+
+/* seccion socias */
+
+#nosotrossocias{
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+#nosotrossocias .seccion {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-family:inherit;
+}
+
+/*secion perfiles socias*/
+
+#perfilessocias {
+    width: 90%;
+    margin: 0 auto;
+}
+#perfilessocias .perfil1234{
+    background-color: #e3edf2;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+    border-radius: 10px;
+    max-width: 1200px;
+    min-height: 30vh;
+    display: flex;
+    align-items: top;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    }
+    
+
+#perfilessocias .detalle  ul{
+    list-style: square;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#perfilessocias .perfil1234 .perfil1{
+    background-image: url(../img/Alicia\(1\).jpg);
+    background-size: cover;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+
+    flex-basis: 240px;
+    max-width: 280px;
+    flex-grow: 1;
+}
+
+#perfilessocias .perfil1234 .perfil2{
+    background-image: url(../img/daniela-kupher.jpg);
+    background-size: cover;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+
+    flex-basis: 240px;
+    max-width: 280px;
+    flex-grow: 1;
+}
+#perfilessocias  .perfil1234 .perfil3{
+    background-image: url(../img/Alejandro.jpg);
+    background-size: cover;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+
+    flex-basis: 240px;
+    max-width: 280px;
+    flex-grow: 1;
+}
+#perfilessocias .perfil1234 .perfil3  :hover {
+    background-size: cover;
+    
+    transform: scale (1.1);
+    transition: all 300ms;
+}
+
+#perfilessocias .detalle{
+    background-color: #e3edf2;
+    background-color: whitesmoke;
+
+    padding: 15px 10px 1px 10px;
+    border-radius: 10px;
+
+    flex-basis: 280px;
+    max-width: 280px;
+    flex-grow: 1;
+    margin-bottom: 30px;
+}
+
+#perfilessocias .nombre  {
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+#perfilessocias .nombre :hover{
+    transform: scale(1.05);
+    transition: all 300ms;
+    background-color: #030a8c;
+}
+
+#perfilessocias .nombre   span{
+    background-color:#88aabf;
+    padding: 5px 18px;
+    border-radius: 12px 0;
+    align-items:center;
+}
+/* boton perfil desplegar */
+
+#perfiles .botonderecha{
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#perfiles .botonperfil{
+    background-color: #e3edf2;
+    border: 2px solid #1E88E5 ;
+    color: #1E88E5;
+    border-radius: 7px;
+    padding: 5px 70px;
+    font-weight: 800;   
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#perfiles .flecha{
+    padding-left: 10px;
+}
+
+#perfiles .btn :hover{
+    background-color: #1E88E5;
+    color: white;
+    border: 2px solid #1E88E5 ;
+
+}
+
+#perfiles .btn :active{
+    background-color: #030a8c;
+    border: 2px solid #030a8c ;
+    color: white;
+}
+
 /* seccion vinculos */
 @keyframes scroll{
     0%{
@@ -857,7 +1023,7 @@ body{
 
 
 #vinculos{
-width: 90%;
+width: 80%;
 margin: 0 auto;
 }
 
@@ -867,18 +1033,15 @@ margin: 0 auto;
     margin-top: 50px;
     margin-left: 30px;
     margin-bottom: 50px;
-    font-weight: 600;
+    font-weight: 700;
     font-family:inherit;
 }
 
 #vinculos .textovinculos{
-    
     margin: 0 30px;
     padding: 30px;
     text-align: justify;
     margin-top: 30px;
-    text-indent: 25px;
-
 }
 
 /* noticia */
@@ -913,7 +1076,6 @@ margin: 0 auto;
     align-content: center;
     width: 60%;
     height: 22rem;
-
     flex-basis: 600px;
     flex-grow: 1;
     text-align: left;
@@ -927,7 +1089,7 @@ margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
     width: 40%;
-    height: 20rem;
+    height: 22rem;
     flex-basis: 450px;
     max-width: 550px;
     border-radius: 10px;
@@ -941,7 +1103,7 @@ margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
     width: 40%;
-    height: 20rem;
+    height: 22rem;
     flex-basis: 450px;
     max-width: 550px;
     border-radius: 10px;
@@ -977,18 +1139,17 @@ margin: 0 auto;
     align-items: flex-end;
     justify-content: center;
 }
-
-#noticias .textonoticia1 h3{
-    font-weight: 600;
-}
 #noticias .textonoticia1 h4{
+    font-weight: 700;
+}
+#noticias .textonoticia1 h5{
     font-weight: 600;
+    text-transform: uppercase;
 }
 #noticias .btnnoticias{
     display: flex;
     justify-content: flex-end;
 }
-
 #noticias  p span  {
     background-color: #1E88E5;
     color: white;
@@ -999,16 +1160,150 @@ margin: 0 auto;
     border: none;
     padding: 5px 25px;
 }
-
 #noticias .btnnoticias :hover{
     background-color: #030a8c;
     color: white;
     content: texto;
 }
 
-/* biblioteca */
+/* articulos*/
 
-/* fin biblioteca*/
+#articulos {
+    width: 90%;
+    margin: 0 auto;
+}
+#articulos .seccion {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-family:inherit;
+}
+#articulos .articulo1 {
+    width: 100%;
+    margin: 30px 0px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 0px 0;
+    background-color: #FFF7DB;
+}
+#articulos .textoarticulo{
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 60%;
+    height: 18rem;
+    flex-basis: 600px;
+    flex-grow: 1;
+    text-align: left;
+    padding: 30px 30px;
+    background-color: white;
+}
+#articulos .fotoportada1{
+    background-image: url(../img/libro1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    height: 18rem;
+    flex-basis: 450px;
+    max-width: 550px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#articulos .fotoportada2{
+    background-image: url(../img/libro2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    height: 18rem;
+    flex-basis: 450px;
+    max-width: 550px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#articulos .fotoportada3{
+    background-image: url(../img/libro3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    height: 18rem;
+    flex-basis: 450px;
+    max-width: 550px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#articulos .textoarticulo h3{
+    font-weight: 700;
+}
+#articulos .textoarticulo h5{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#articulos .textoarticulo h6{
+    font-weight: 600;
+
+}
+
+#articulos .textoarticulo footer  {
+    display: flex;
+    justify-content: flex-end;   
+    padding:  0;
+    padding: 20px 0 0 0;
+}
+#articulos .botona{
+    background-color: #f2b90c;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 60px;
+    transition: .3s ease all;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#articulos .color2  :hover{
+    background-color: #ffac4b;
+    color: white;
+    text-decoration: none;
+}
+#articulos .color2  :active{
+    background-color: #ff9c08;
+    color: white;
+    text-decoration: none;
+}
+#articulos .flecha{
+    padding-left: 10px;
+    font-weight: 700;
+}
+#articulos .textolargo {
+    margin: 0 30px;
+    padding: 30px;
+    text-align: justify;
+    margin-top: 30px;
+    line-height: 100px;
+}
+#articulos .textolargo h6{
+    line-height: 22px;
+}
+
+
 
 
 /* inicio contacto */
@@ -1194,6 +1489,17 @@ margin: 0 auto;
     text-transform: uppercase;
     margin: 15px 20px;
 }
+#formulario .botonenviar :hover{
+    background-color: #ffac4b;
+    color: white;
+    text-decoration: none;
+}
+#formulario .botonenviar :active{
+    background-color: #ff9c08;
+    color: white;
+    text-decoration: none;
+}
+
 #formulario .form-label{
     font-weight: 700;
     margin-top: 5px;
@@ -1203,6 +1509,11 @@ margin: 0 auto;
     display: flex;
     justify-content: flex-end;    
 }
+
+
+
+
+
 /* formulario 2 */
 
 #formulario .contenido2{
@@ -1263,6 +1574,20 @@ margin: 0 auto;
     text-transform: uppercase;
     margin: 15px 20px;
 }
+
+#botonazul .botonenviar :hover{
+    background-color: #ffac4b;
+    color: white;
+    text-decoration: none;
+}
+#botonazul .botonenviar :active{
+    background-color: #ff9c08;
+    color: white;
+    text-decoration: none;
+}
+
+
+
 
 #formulario  .formulario2 footer  {
     display: flex;
